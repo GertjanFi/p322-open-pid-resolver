@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PEM9H4Q7R2K8V1CW
 layout: layouts/post.njk
 lang: nl
 title: "Cache en geen kopie: een middel tegen aggregatie."

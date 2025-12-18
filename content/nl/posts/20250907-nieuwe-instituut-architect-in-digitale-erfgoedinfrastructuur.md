@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P7C4H2QK9R8M6V1WZ
 layout: layouts/post.njk
 lang: nl
 title: Het Nieuwe Instituut als architect in digitaal erfgoedinfrastructuur

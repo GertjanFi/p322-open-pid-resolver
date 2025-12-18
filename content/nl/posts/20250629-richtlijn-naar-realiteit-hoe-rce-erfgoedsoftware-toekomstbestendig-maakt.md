@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P6KJ9R4M2QH8V7C1WZ
 layout: layouts/post.njk
 lang: nl
 title: "Van richtlijn naar realiteit: hoe de RCE erfgoedsoftware toekomstbestendig maakt"

@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P9R7M4Q2H8KVC1WZ
 layout: layouts/post.njk
 lang: en
 title: "The librarians of the desert — Reflections on the World Day for Digital Sustainability 2025"

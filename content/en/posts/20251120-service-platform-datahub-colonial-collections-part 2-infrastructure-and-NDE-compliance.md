@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PCM7H4Q2R9K8V1CW
 layout: layouts/post.njk
 lang: en
 title: "Service Platform Datahub Colonial Collections Part 2: Infrastructure and NDE Compliance"

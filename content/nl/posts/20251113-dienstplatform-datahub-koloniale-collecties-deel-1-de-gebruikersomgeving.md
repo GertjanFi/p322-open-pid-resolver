@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PA4H7Q2K9M8R1VCW
 layout: layouts/post.njk
 lang: nl
 title: "Dienstplatform Datahub Koloniale Collecties deel 1: De gebruikersomgeving"

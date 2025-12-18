@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P9R7M4Q2H8KVC1WZ
 layout: layouts/post.njk
 lang: nl
 title: "De bibliothecarissen van de woestijn — Reflecties op de Werelddag voor Digitale Duurzaamheid 2025"

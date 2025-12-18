@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P4A9WQK8C2Y3M7H5RZ
 layout: layouts/post.njk
 lang: nl
 title: "Een data-architectuurstudio"

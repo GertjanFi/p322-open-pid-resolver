@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P8M9R2H7V4KQ1CZWX
 layout: layouts/post.njk
 lang: nl
 title: "De dag na de HackaLOD: waarom degelijk de basis is van cool"

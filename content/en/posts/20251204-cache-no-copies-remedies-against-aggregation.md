@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PEM9H4Q7R2K8V1CW
 layout: layouts/post.njk
 lang: en
 title: "Cache, Not Copies: A Remedy Against Aggregation"

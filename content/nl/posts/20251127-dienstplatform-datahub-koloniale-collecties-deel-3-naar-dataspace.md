@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PDQ7M2H4K9R8V1CW
 layout: layouts/post.njk
 lang: nl
 title: "Dienstplatform Datahub Koloniale Collecties deel 3: van NDE-infrastructuur naar dataspace"

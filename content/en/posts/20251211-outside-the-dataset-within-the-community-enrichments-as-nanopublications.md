@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PFQ2H9R7M4K8V1CW
 layout: layouts/post.njk
 lang: en
 title: "Outside the Dataset, Within the Community: Enrichments as Nanopublications"

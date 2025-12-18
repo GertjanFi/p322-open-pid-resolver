@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PDQ7M2H4K9R8V1CW
 layout: layouts/post.njk
 lang: en
 title: "Service Platform Datahub Colonial Collections Part 3: from NDE Infrastructure to Dataspace"

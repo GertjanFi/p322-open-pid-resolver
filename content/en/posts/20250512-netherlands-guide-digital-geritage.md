@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P5N4V6R8H2M9D1KQTC
 layout: layouts/post.njk
 lang: en
 title: "The Netherlands as a Guiding Country in Digital Heritage: What Are NDE, NSDE, and DERA"

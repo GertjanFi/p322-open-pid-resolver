@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PFQ2H9R7M4K8V1CW
 layout: layouts/post.njk
 lang: nl
 title: "Buiten de dataset, binnen de gemeenschap: verrijkingen als nanopublicaties"

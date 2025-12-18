@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PGH7M9Q2R4K8V1CW
 layout: layouts/post.njk
 lang: nl
 title: "Wat zoeken we eigenlijk? Dataset Discovery in het NDE Datasetregister op weg naar een dataspace."

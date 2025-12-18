@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3PBM2QH7R4K9V8C1W
 layout: layouts/post.njk
 lang: nl
 title: "Dienstplatformen zijn geen datalagen — tijd om dat te erkennen"

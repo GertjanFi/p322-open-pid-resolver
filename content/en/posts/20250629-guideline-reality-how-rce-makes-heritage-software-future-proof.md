@@ -1,4 +1,5 @@
 ---
+pid: p322:blog:01J6E8F3P6KJ9R4M2QH8V7C1WZ
 layout: layouts/post.njk
 lang: en
 title: "From Guideline to Reality: How the RCE Makes Heritage Software Future-Proof"
