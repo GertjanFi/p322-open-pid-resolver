@@ -1,0 +1,19 @@
+{
+  "name": "p322-open-pid-resolver",
+  "version": "1.0.0",
+  "description": "This repository serves as an Authoritative External Resolver Repository (AERR) for persistent identifiers issued under the p322 namespace. It contains: a minimal, self-contained PID resolver implementation; the authoritative PID-to-resource mappings; the referenced content itself (in Markdown form); governance and policy documentation required to reproduce resolution and stewardship. The repository is intentionally designed so that any third party can fork or mirror it and immediately continue PID resolution, without coordination, contractual dependency, or reliance on the original publisher.",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GertjanFi/p322-open-pid-resolver;"
+  },
+  "license": "ISC",
+  "author": "Plimpton-322",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node": "^24.12.0"
+  }
+}
