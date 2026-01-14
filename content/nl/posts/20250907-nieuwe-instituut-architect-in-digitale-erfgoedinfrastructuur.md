@@ -4,12 +4,16 @@ layout: layouts/post.njk
 lang: nl
 title: Het Nieuwe Instituut als architect in digitaal erfgoedinfrastructuur
 onHomepage: true
-date: 2025-09-07
-category: "Consultancy"
-type: "blog"
+date: 2025-09-07T00:00:00.000Z
+category: Consultancy
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/nieuwe-instituut.jpg"
-excerpt: "Het Nieuwe Instituut laat zien dat digitaal erfgoedinfrastructuur geen toekomstplan is maar realiteit. Met The Other Interface zet het instituut de DERA-principes om in praktijk en wordt zo gids voor het netwerk."
+image: /assets/images/knowledge/nieuwe-instituut.jpg
+excerpt: Het Nieuwe Instituut laat zien dat digitaal erfgoedinfrastructuur geen toekomstplan is maar realiteit. Met The Other Interface zet het instituut de DERA-principes om in praktijk en wordt zo gids voor het netwerk.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Digitale infrastructuur klinkt zelden sexy. Maar wie even onder de motorkap kijkt van _The Other Interface_ (TOI) — het platform waarmee het Nieuwe Instituut zijn collecties zichtbaar maakt — ziet iets bijzonders: een laboratorium voor de toekomst van digitaal erfgoed in Nederland.

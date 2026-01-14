@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P4A9WQK8C2Y3M7H5RZ
 layout: layouts/post.njk
 lang: en
-title: "A Data Architecture Studio"
+title: A Data Architecture Studio
 onHomepage: true
-date: 2025-04-02
-category: "Background"
-type: "blog"
+date: 2025-04-02T00:00:00.000Z
+category: Background
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/toren-van-babel.jpg"
-excerpt: "Data are the raw material of the digital world. But just as steel, wood, or pigment gain value only through design and craftsmanship, data becomes meaningful only when given structure, context, and coherence. That is precisely the domain of a data architecture studio."
+image: /assets/images/knowledge/toren-van-babel.jpg
+excerpt: Data are the raw material of the digital world. But just as steel, wood, or pigment gain value only through design and craftsmanship, data becomes meaningful only when given structure, context, and coherence. That is precisely the domain of a data architecture studio.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Data are the raw material of the digital world.  

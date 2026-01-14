@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P9R7M4Q2H8KVC1WZ
 layout: layouts/post.njk
 lang: en
-title: "The librarians of the desert — Reflections on the World Day for Digital Sustainability 2025"
+title: The librarians of the desert — Reflections on the World Day for Digital Sustainability 2025
 onHomepage: true
-date: 2025-11-07
-category: "Background"
-type: "blog"
+date: 2025-11-07T00:00:00.000Z
+category: Background
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/timbuktu-haidara.jpg"
-excerpt: "During the World Day for Digital Sustainability 2025 in Utrecht, I told the story of Abdel Kader Haidara, the librarian who saved 375,000 manuscripts from Timbuktu. His act of resistance against oblivion became the moral compass of a day full of digital inspiration, new tools, and the question: Why Preserve?"
+image: /assets/images/knowledge/timbuktu-haidara.jpg
+excerpt: 'During the World Day for Digital Sustainability 2025 in Utrecht, I told the story of Abdel Kader Haidara, the librarian who saved 375,000 manuscripts from Timbuktu. His act of resistance against oblivion became the moral compass of a day full of digital inspiration, new tools, and the question: Why Preserve?'
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Yesterday, I had the honour of serving as host and master of ceremonies at **World Digital Preservation Day 2025** in Kanaal30, Utrecht. A hall full of heritage professionals, archivists, programmers, artists, and data strategists looked at me expectantly. I opened with a photo of a man few people recognised. To me, he is a hero.

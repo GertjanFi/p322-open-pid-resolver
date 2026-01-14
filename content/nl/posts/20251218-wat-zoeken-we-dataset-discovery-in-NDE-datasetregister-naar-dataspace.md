@@ -2,15 +2,19 @@
 pid: p322:blog:01J6E8F3PGH7M9Q2R4K8V1CW
 layout: layouts/post.njk
 lang: nl
-title: "Wat zoeken we eigenlijk? Dataset Discovery in het NDE Datasetregister op weg naar een dataspace."
+title: Wat zoeken we eigenlijk? Dataset Discovery in het NDE Datasetregister op weg naar een dataspace.
 onHomepage: true
-date: 2025-12-18
-category: "Opinie"
-type: "blog"
+date: 2025-12-18T00:00:00.000Z
+category: Opinie
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/wat-zoeken-we-dataset-discovery-in-nde-datasetregister-naar-dataspace.jpg"
-excerpt: "De derde <em>lesson-learned</em> van het datahub koloniale collecties dienstplatform.<br/><br/>Het NDE Datasetregister is nu vooral een technische ingang naar endpoints, maar voor een dienstplatform als de Datahub Koloniale Collecties is dat niet genoeg. We moeten weten wat we werkelijk binnenhalen: de inhoud, de technische kwaliteit, de juridische voorwaarden en de ethische gevoeligheden. Door discovery te verbreden naar deze vier kaders wordt het datasetregister een betekenisvol instrument dat bronhouders helpt verantwoord te publiceren en dienstplatformen voorbereidt op een dataspace-logica."
-teaser: "Een dataset vinden is niet hetzelfde als begrijpen wat je binnenhaalt. Waarom het NDE Datasetregister pas écht waarde krijgt als discovery verder kijkt dan techniek — en hoe vier kaders de weg openen naar een dataspace."
+image: /assets/images/knowledge/wat-zoeken-we-dataset-discovery-in-nde-datasetregister-naar-dataspace.jpg
+excerpt: 'De derde <em>lesson-learned</em> van het datahub koloniale collecties dienstplatform.<br/><br/>Het NDE Datasetregister is nu vooral een technische ingang naar endpoints, maar voor een dienstplatform als de Datahub Koloniale Collecties is dat niet genoeg. We moeten weten wat we werkelijk binnenhalen: de inhoud, de technische kwaliteit, de juridische voorwaarden en de ethische gevoeligheden. Door discovery te verbreden naar deze vier kaders wordt het datasetregister een betekenisvol instrument dat bronhouders helpt verantwoord te publiceren en dienstplatformen voorbereidt op een dataspace-logica.'
+teaser: Een dataset vinden is niet hetzelfde als begrijpen wat je binnenhaalt. Waarom het NDE Datasetregister pas écht waarde krijgt als discovery verder kijkt dan techniek — en hoe vier kaders de weg openen naar een dataspace.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Wanneer je werkt aan een dienstplatform zoals de [Datahub Koloniale Collecties](https://app.colonialcollections.nl/en), ontdek je vroeg of laat een moment waarop techniek botst op inhoud. Deze derde _lesson-learned_ is daarom deels les en deels hoopvolle verwachting.

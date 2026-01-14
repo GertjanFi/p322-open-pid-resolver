@@ -2,15 +2,19 @@
 pid: p322:blog:01J6E8F3PGH7M9Q2R4K8V1CW
 layout: layouts/post.njk
 lang: en
-title: "What Are We Really Looking For? Dataset Discovery in the NDE Dataset Register on the Road to a Dataspace."
+title: What Are We Really Looking For? Dataset Discovery in the NDE Dataset Register on the Road to a Dataspace.
 onHomepage: true
-date: 2025-12-18
-category: "Opinion"
-type: "blog"
+date: 2025-12-18T00:00:00.000Z
+category: Opinion
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/wat-zoeken-we-dataset-discovery-in-nde-datasetregister-naar-dataspace.jpg"
-excerpt: "The third <em>lesson learned</em> from the Datahub Colonial Collections service platform.<br/><br/>The NDE Dataset Register is currently mainly a technical entry point to endpoints, but for a service platform like the Datahub Colonial Collections that is not enough. We need to understand what we are actually ingesting: the content, the technical quality, the legal conditions and the ethical sensitivities. By broadening discovery to these four lenses, the dataset register becomes a meaningful instrument that helps data providers publish responsibly and prepares service platforms for a dataspace logic."
-teaser: "Finding a dataset is not the same as understanding what you are taking in. Why the NDE Dataset Register only gains real value when discovery looks beyond technology — and how four frameworks open the path toward a dataspace."
+image: /assets/images/knowledge/wat-zoeken-we-dataset-discovery-in-nde-datasetregister-naar-dataspace.jpg
+excerpt: 'The third <em>lesson learned</em> from the Datahub Colonial Collections service platform.<br/><br/>The NDE Dataset Register is currently mainly a technical entry point to endpoints, but for a service platform like the Datahub Colonial Collections that is not enough. We need to understand what we are actually ingesting: the content, the technical quality, the legal conditions and the ethical sensitivities. By broadening discovery to these four lenses, the dataset register becomes a meaningful instrument that helps data providers publish responsibly and prepares service platforms for a dataspace logic.'
+teaser: Finding a dataset is not the same as understanding what you are taking in. Why the NDE Dataset Register only gains real value when discovery looks beyond technology — and how four frameworks open the path toward a dataspace.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 When you work on a service platform such as the [Datahub Colonial Collections](https://app.colonialcollections.nl/en), you inevitably encounter a moment where technology collides with meaning. This third _lesson learned_ is therefore partly a lesson and partly a hopeful expectation.

@@ -1,16 +1,20 @@
 ---
 layout: layouts/post.njk
 lang: nl
-title: "De Kunst van Verdwalen met AI"
+title: De Kunst van Verdwalen met AI
 onHomepage: true
-date: 2025-12-30
-category: "Achtergronden"
-type: "blog"
+date: 2025-12-30T00:00:00.000Z
+category: Achtergronden
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/kunst-van-verdwalen.jpg"
-excerpt: "In mijn poging een simpele analytics-tool te installeren, raakte ik verstrikt in een keten van ogenschijnlijk plausibele AI-adviezen die steeds nét geloofwaardig genoeg waren om door te gaan. Wat begon als een kwartierklus veranderde in uren zoeken, corrigeren en hopen dat de volgende stap wél zou werken. Het werd een les in hoe taalmodellen overtuiging simuleren, hoe snel je daarin meegaat, en hoe belangrijk het blijft om elke stap zelf te verifiëren."
-teaser: "Lees het nieuwe P-322 blog over hoe een simpele installatie met ChatGPT ontspoorde in een reeks bijna-plausibele AI-adviezen, en waarom deze misleidende overtuigingskracht van taalmodellen je dwingt elke stap zelf te verifiëren."
+image: /assets/images/knowledge/kunst-van-verdwalen.jpg
+excerpt: In mijn poging een simpele analytics-tool te installeren, raakte ik verstrikt in een keten van ogenschijnlijk plausibele AI-adviezen die steeds nét geloofwaardig genoeg waren om door te gaan. Wat begon als een kwartierklus veranderde in uren zoeken, corrigeren en hopen dat de volgende stap wél zou werken. Het werd een les in hoe taalmodellen overtuiging simuleren, hoe snel je daarin meegaat, en hoe belangrijk het blijft om elke stap zelf te verifiëren.
+teaser: Lees het nieuwe P-322 blog over hoe een simpele installatie met ChatGPT ontspoorde in een reeks bijna-plausibele AI-adviezen, en waarom deze misleidende overtuigingskracht van taalmodellen je dwingt elke stap zelf te verifiëren.
 pid: p322:blog:06DKAEKAMZHSJ0PXYT8VVPHAP
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 

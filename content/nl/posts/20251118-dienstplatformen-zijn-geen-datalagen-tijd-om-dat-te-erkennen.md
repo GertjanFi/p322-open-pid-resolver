@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3PBM2QH7R4K9V8C1W
 layout: layouts/post.njk
 lang: nl
-title: "Dienstplatformen zijn geen datalagen — tijd om dat te erkennen"
+title: Dienstplatformen zijn geen datalagen — tijd om dat te erkennen
 onHomepage: true
-date: 2025-11-18
-category: "Opinie"
-type: "blog"
+date: 2025-11-18T00:00:00.000Z
+category: Opinie
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/dienstplatformen-zijn-geen-datalagen-tijd-om-dat-te-erkennen.jpg"
-excerpt: "Dienstplatformen bruisen als jazzmuzikanten van creativiteit en improvisatie. Maar ook in jazz is er altijd de baslijn die alles bij elkaar houdt. In mijn reactie op het rapport 'Van Data naar Dienst' laat ik zien dat die rol in onze digitale erfgoedinfrastructuur bij de makelaar hoort. Door die plek serieus te nemen, ontstaat ruimte voor platforms om te doen waar ze het best in zijn."
+image: /assets/images/knowledge/dienstplatformen-zijn-geen-datalagen-tijd-om-dat-te-erkennen.jpg
+excerpt: Dienstplatformen bruisen als jazzmuzikanten van creativiteit en improvisatie. Maar ook in jazz is er altijd de baslijn die alles bij elkaar houdt. In mijn reactie op het rapport 'Van Data naar Dienst' laat ik zien dat die rol in onze digitale erfgoedinfrastructuur bij de makelaar hoort. Door die plek serieus te nemen, ontstaat ruimte voor platforms om te doen waar ze het best in zijn.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 De afgelopen week las ik het NDE-rapport '[Van Data naar Dienst](https://netwerkdigitaalerfgoed.nl/nieuws/van-maatwerk-naar-netwerk-samen-bouwen-aan-erfgoedplatformen/)', met een visie op de ontwikkeling van verbonden digitale dienstplatformen. Daarin verwijzen de auteurs geregeld naar de [datahub Koloniale Collecties](https://app.colonialcollections.nl) als voorbeeld. Dat is prachtig, maar er is iets dat ik in dat project heb geleerd. Niet in één moment, maar in een reeks kleine ontdekkingen die pas later een patroon vormden.

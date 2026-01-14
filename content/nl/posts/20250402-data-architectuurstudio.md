@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P4A9WQK8C2Y3M7H5RZ
 layout: layouts/post.njk
 lang: nl
-title: "Een data-architectuurstudio"
+title: Een data-architectuurstudio
 onHomepage: true
-date: 2025-04-02
-category: "Achtergronden"
-type: "blog"
+date: 2025-04-02T00:00:00.000Z
+category: Achtergronden
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/toren-van-babel.jpg"
-excerpt: "Data zijn het ruwe materiaal van de digitale wereld. Maar zoals staal, hout of pigment pas waarde krijgen door ontwerp en vakmanschap, zo wordt data pas betekenisvol wanneer er structuur, context en samenhang aan wordt gegeven. Dat is precies het werkterrein van een data-architectuurstudio."
+image: /assets/images/knowledge/toren-van-babel.jpg
+excerpt: Data zijn het ruwe materiaal van de digitale wereld. Maar zoals staal, hout of pigment pas waarde krijgen door ontwerp en vakmanschap, zo wordt data pas betekenisvol wanneer er structuur, context en samenhang aan wordt gegeven. Dat is precies het werkterrein van een data-architectuurstudio.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Data zijn het ruwe materiaal van de digitale wereld. Maar zoals staal, hout of pigment pas waarde krijgen door ontwerp en vakmanschap, zo wordt data pas betekenisvol wanneer er structuur, context en samenhang aan wordt gegeven. Dat is precies het werkterrein van een data-architectuurstudio.

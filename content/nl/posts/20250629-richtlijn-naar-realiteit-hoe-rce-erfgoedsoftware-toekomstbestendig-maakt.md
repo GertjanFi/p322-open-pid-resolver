@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P6KJ9R4M2QH8V7C1WZ
 layout: layouts/post.njk
 lang: nl
-title: "Van richtlijn naar realiteit: hoe de RCE erfgoedsoftware toekomstbestendig maakt"
+title: 'Van richtlijn naar realiteit: hoe de RCE erfgoedsoftware toekomstbestendig maakt'
 onHomepage: false
-date: 2025-06-29
-category: "Consultancy"
-type: "blog"
+date: 2025-06-29T00:00:00.000Z
+category: Consultancy
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/rijksdienst-cultureel-erfgoed.jpg"
-excerpt: "Het Nieuwe Instituut laat zien dat digitale erfgoedinfrastructuur geen toekomstplan is maar realiteit. Met The Other Interface zet het instituut de DERA-principes om in praktijk en wordt zo gids voor het netwerk."
+image: /assets/images/knowledge/rijksdienst-cultureel-erfgoed.jpg
+excerpt: Het Nieuwe Instituut laat zien dat digitale erfgoedinfrastructuur geen toekomstplan is maar realiteit. Met The Other Interface zet het instituut de DERA-principes om in praktijk en wordt zo gids voor het netwerk.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Wie ooit betrokken was bij de aanschaf van erfgoedsoftware weet het: technische specificaties lijken saai — tot ze ontbreken. Want precies daar, in de details van identifiers, API’s en ontologieën, beslist zich of collectiedata duurzaam vindbaar, deelbaar en herbruikbaar worden.

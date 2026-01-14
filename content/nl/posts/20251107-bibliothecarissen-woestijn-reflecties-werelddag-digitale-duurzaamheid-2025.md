@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P9R7M4Q2H8KVC1WZ
 layout: layouts/post.njk
 lang: nl
-title: "De bibliothecarissen van de woestijn — Reflecties op de Werelddag voor Digitale Duurzaamheid 2025"
+title: De bibliothecarissen van de woestijn — Reflecties op de Werelddag voor Digitale Duurzaamheid 2025
 onHomepage: true
-date: 2025-11-07
-category: "Achtergronden"
-type: "blog"
+date: 2025-11-07T00:00:00.000Z
+category: Achtergronden
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/timbuktu-haidara.jpg"
-excerpt: "Tijdens de Werelddag voor Digitale Duurzaamheid 2025 in Utrecht vertelde ik het verhaal van Abdel Kader Haidara, de bibliothecaris die 375.000 manuscripten uit Timboektoe redde. Zijn daad van verzet tegen vergetelheid werd het morele kompas van een dag vol digitale inspiratie, nieuwe tools, en de vraag: Why Preserve?."
+image: /assets/images/knowledge/timbuktu-haidara.jpg
+excerpt: 'Tijdens de Werelddag voor Digitale Duurzaamheid 2025 in Utrecht vertelde ik het verhaal van Abdel Kader Haidara, de bibliothecaris die 375.000 manuscripten uit Timboektoe redde. Zijn daad van verzet tegen vergetelheid werd het morele kompas van een dag vol digitale inspiratie, nieuwe tools, en de vraag: Why Preserve?.'
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Gisteren mocht ik in Kanaal30 in Utrecht gastheer en spreekstalmeester zijn op de **Werelddag voor Digitale Duurzaamheid 2025**. Een zaal vol erfgoedprofessionals, archivarissen, programmeurs, kunstenaars en datastrategen keek mij verwachtingsvol aan. Ik opende met een foto van een man die maar weinig mensen kennen. Voor mij is het een held.

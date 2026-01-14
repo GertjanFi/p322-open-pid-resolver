@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3PBM2QH7R4K9V8C1W
 layout: layouts/post.njk
 lang: en
-title: "Service Platforms Are Not Data Layers — Time to Acknowledge That"
+title: Service Platforms Are Not Data Layers — Time to Acknowledge That
 onHomepage: true
-date: 2025-11-18
-category: "Opinion"
-type: "blog"
+date: 2025-11-18T00:00:00.000Z
+category: Opinion
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/dienstplatformen-zijn-geen-datalagen-tijd-om-dat-te-erkennen.jpg"
-excerpt: "Service platforms brim with creativity and improvisation, much like jazz musicians. But even in jazz, there is always a bass line holding everything together. In my response to the report 'Van Data naar Dienst', I explain why that role in our digital heritage infrastructure belongs to the broker. When we take that position seriously, platforms regain the freedom to do what they are best at."
+image: /assets/images/knowledge/dienstplatformen-zijn-geen-datalagen-tijd-om-dat-te-erkennen.jpg
+excerpt: Service platforms brim with creativity and improvisation, much like jazz musicians. But even in jazz, there is always a bass line holding everything together. In my response to the report 'Van Data naar Dienst', I explain why that role in our digital heritage infrastructure belongs to the broker. When we take that position seriously, platforms regain the freedom to do what they are best at.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Last week, I read the NDE report _'Van Data naar Dienst'_, which presents a vision for developing connected digital service platforms. The authors regularly refer to the Colonial Collections datahub as an example. That’s wonderful, but there is something I learned in that project. Not in a single moment, but in a series of small insights that only later revealed a pattern.

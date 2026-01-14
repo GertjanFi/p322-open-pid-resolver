@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P5N4V6R8H2M9D1KQTC
 layout: layouts/post.njk
 lang: en
-title: "The Netherlands as a Guiding Country in Digital Heritage: What Are NDE, NSDE, and DERA"
+title: 'The Netherlands as a Guiding Country in Digital Heritage: What Are NDE, NSDE, and DERA'
 onHomepage: true
-date: 2025-05-12
-category: "Background"
-type: "blog"
+date: 2025-05-12T00:00:00.000Z
+category: Background
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/nsde.png"
-excerpt: "Digital accessibility is no longer a technical detail — it is heritage care. Behind this transformation lies a clever interplay of policy, network, and architecture: the NSDE, the NDE, and the DERA. Together they form the foundation on which the Netherlands is seen worldwide as a guiding country for digital heritage."
+image: /assets/images/knowledge/nsde.png
+excerpt: 'Digital accessibility is no longer a technical detail — it is heritage care. Behind this transformation lies a clever interplay of policy, network, and architecture: the NSDE, the NDE, and the DERA. Together they form the foundation on which the Netherlands is seen worldwide as a guiding country for digital heritage.'
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Anyone working today in a museum, archive, or library feels it every day: heritage lives not only in depots and display cases, but also in data. From scans to knowledge graphs — digital accessibility has become a core responsibility of the Dutch heritage sector. Behind this digital transformation lies a well-thought-out structure of policy, collaboration, and technology: **the NSDE, the NDE, and the DERA**.

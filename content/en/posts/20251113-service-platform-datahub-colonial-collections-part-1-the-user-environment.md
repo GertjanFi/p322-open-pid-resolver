@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3PA4H7Q2K9M8R1VCW
 layout: layouts/post.njk
 lang: en
-title: "Service Platform Datahub Colonial Collections Part 1: The User Environment"
+title: 'Service Platform Datahub Colonial Collections Part 1: The User Environment'
 onHomepage: true
-date: 2025-11-11
-category: "Background"
-type: "blog"
+date: 2025-11-11T00:00:00.000Z
+category: Background
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/bird-of-prophecy.jpg"
-excerpt: "The Datahub for Colonial Collections is one of the first concrete examples of a dataspace in the heritage domain. In this infrastructure, collections from Dutch museums with a colonial context are brought together and enriched with knowledge from communities of origin — as with the Bird of Prophecy from Nigeria. The Datahub presents academic and local knowledge equally within a single shared system.</br></br>This Part 1 focuses on the user environment of the Datahub."
+image: /assets/images/knowledge/bird-of-prophecy.jpg
+excerpt: The Datahub for Colonial Collections is one of the first concrete examples of a dataspace in the heritage domain. In this infrastructure, collections from Dutch museums with a colonial context are brought together and enriched with knowledge from communities of origin — as with the Bird of Prophecy from Nigeria. The Datahub presents academic and local knowledge equally within a single shared system.</br></br>This Part 1 focuses on the user environment of the Datahub.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 ## From Data to Blueprint

@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3PCM7H4Q2R9K8V1CW
 layout: layouts/post.njk
 lang: nl
-title: "Dienstplatform Datahub Koloniale Collecties deel 2: Infrastructuur en NDE-compliance"
+title: 'Dienstplatform Datahub Koloniale Collecties deel 2: Infrastructuur en NDE-compliance'
 onHomepage: true
-date: 2025-11-20
-category: "Achtergronden"
-type: "blog"
+date: 2025-11-20T00:00:00.000Z
+category: Achtergronden
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/bird-of-prophecy-2.jpg"
-excerpt: "In deel 2 van de datahub als dienstplatform dalen we af naar de infrastructuur onder de Koloniale Collecties. Niet de interface, maar de afspraken die bepalen wie welke data publiceert, hoe die blijft stromen en hoe dicht we bij de bron blijven. We volgen hoe musea hun eigen data publiceren volgens de NDE-architectuur, hoe de Datahub die gebruikt zonder te aggregeren, en waarom verrijkingen als zelfstandige kennis worden opgeslagen in plaats van verborgen in een tussenlaag."
+image: /assets/images/knowledge/bird-of-prophecy-2.jpg
+excerpt: In deel 2 van de datahub als dienstplatform dalen we af naar de infrastructuur onder de Koloniale Collecties. Niet de interface, maar de afspraken die bepalen wie welke data publiceert, hoe die blijft stromen en hoe dicht we bij de bron blijven. We volgen hoe musea hun eigen data publiceren volgens de NDE-architectuur, hoe de Datahub die gebruikt zonder te aggregeren, en waarom verrijkingen als zelfstandige kennis worden opgeslagen in plaats van verborgen in een tussenlaag.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 ## De datahub als dienstplatform – deel 2

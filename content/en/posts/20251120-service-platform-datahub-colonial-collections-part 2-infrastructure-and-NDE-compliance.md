@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3PCM7H4Q2R9K8V1CW
 layout: layouts/post.njk
 lang: en
-title: "Service Platform Datahub Colonial Collections Part 2: Infrastructure and NDE Compliance"
+title: 'Service Platform Datahub Colonial Collections Part 2: Infrastructure and NDE Compliance'
 onHomepage: true
-date: 2025-11-20
-category: "Background"
-type: "blog"
+date: 2025-11-20T00:00:00.000Z
+category: Background
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/bird-of-prophecy-2.jpg"
-excerpt: "In part 2 of the datahub as a service platform, we descend into the infrastructure beneath the Colonial Collections. Not the interface, but the agreements that determine who publishes which data, how it keeps flowing, and how close we stay to the source. We follow how museums publish their own data according to the NDE architecture, how the Datahub uses it without aggregating, and why enrichments are stored as independent knowledge instead of being hidden in an intermediate layer."
+image: /assets/images/knowledge/bird-of-prophecy-2.jpg
+excerpt: In part 2 of the datahub as a service platform, we descend into the infrastructure beneath the Colonial Collections. Not the interface, but the agreements that determine who publishes which data, how it keeps flowing, and how close we stay to the source. We follow how museums publish their own data according to the NDE architecture, how the Datahub uses it without aggregating, and why enrichments are stored as independent knowledge instead of being hidden in an intermediate layer.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 ## The datahub as a service platform – part 2

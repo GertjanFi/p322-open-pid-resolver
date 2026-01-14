@@ -2,14 +2,18 @@
 pid: p322:blog:01J6E8F3P6KJ9R4M2QH8V7C1WZ
 layout: layouts/post.njk
 lang: en
-title: "From Guideline to Reality: How the RCE Makes Heritage Software Future-Proof"
+title: 'From Guideline to Reality: How the RCE Makes Heritage Software Future-Proof'
 onHomepage: false
-date: 2025-06-29
-category: "Consultancy"
-type: "blog"
+date: 2025-06-29T00:00:00.000Z
+category: Consultancy
+type: blog
 authorKey: gertjan
-image: "/assets/images/knowledge/rijksdienst-cultureel-erfgoed.jpg"
-excerpt: "The Nieuwe Instituut shows that digital heritage infrastructure is not a future plan but a reality. With *The Other Interface*, the institute translates the DERA principles into practice and becomes a guide for the network."
+image: /assets/images/knowledge/rijksdienst-cultureel-erfgoed.jpg
+excerpt: The Nieuwe Instituut shows that digital heritage infrastructure is not a future plan but a reality. With *The Other Interface*, the institute translates the DERA principles into practice and becomes a guide for the network.
+license:
+  content: CC-BY-NC-SA-4.0
+  representation:
+    html: ARR
 ---
 
 Anyone who has ever been involved in purchasing heritage software knows this: technical specifications seem dull — until they’re missing.  
