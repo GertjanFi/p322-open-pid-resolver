@@ -2,14 +2,14 @@
 layout: layouts/post.njk
 lang: nl
 pid: p322:blog:06DSWGDD077240PD64A67BN66
-title: 'Erfgoed en dataspaces: experiment 1'
+title: "Erfgoed en dataspaces: experiment 1"
 onHomepage: true
 date: 2026-01-21T00:00:00.000Z
 category: Achtergronden
 type: blog
 authorKey: gertjan
 image: /assets/images/knowledge/afsluitdijk.jpg
-excerpt: 'Dataspaces duiken steeds vaker op in erfgoedbeleid, maar wat betekenen ze technisch eigenlijk? In dit eerste experiment bouw ik een werkende dataspace-transactie met Europese open-source technologie: geen diagrammen, maar echte software die je lokaal kunt draaien. Stap voor stap laat ik zien hoe providers en consumers onderhandelen, wachten, en uiteindelijk data uitwisselen onder expliciete voorwaarden. Geen abstract beleid, maar een concreet teken van leven onder het woord ‘dataspace’.'
+excerpt: "Dataspaces duiken steeds vaker op in erfgoedbeleid, maar wat betekenen ze technisch eigenlijk? In dit eerste experiment bouw ik een werkende dataspace-transactie met Europese open-source technologie: geen diagrammen, maar echte software die je lokaal kunt draaien. Stap voor stap laat ik zien hoe providers en consumers onderhandelen, wachten, en uiteindelijk data uitwisselen onder expliciete voorwaarden. Geen abstract beleid, maar een concreet teken van leven onder het woord ‘dataspace’."
 teaser: Wat gebeurt er als erfgoeddata niet zomaar open staat, maar via afspraken wordt gedeeld? Een hands-on experiment met dataspaces, van poort tot sleutel.
 license:
   content: CC-BY-NC-SA-4.0
@@ -145,7 +145,7 @@ Hoe weet een consumer welke assets er binnen de dataspace worden aangeboden? Omd
 
 Een dataspace heeft geen centrale macht.
 Geen _single point of failure_.
-Geen impliete noodzaak om alles te indexeren.
+Geen impliciete noodzaak om alles te indexeren.
 
 De consumer kent (via configuratie, governance, of een onboarding traject) bepaalde providers. En houdt een eigen lijst van provider-endpoints bij. Bij iedere bekende provider vraagt de consumer een catalogus op. Het verzamelen van de offers in die catalogi doet de consumer daarna lokaal zelf. Daardoor heeft de consumer maximale soevereiniteit, maar ik ben wel bang dat het voor geen meter schaalt. Dit werkt misschien voor pilots, gesloten consortia, en een experiment zoals dat van mij - maar niet bij grote netwerken van 100+ providers.
 
@@ -167,11 +167,11 @@ Om contact met een provider te zoeken, gebruikt de consumer de Consumer Manageme
 
 De EDC's van de deelnemers in de dataspace communiceren onderling door middel van het [Dataspace Protocol (DSP)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/).
 
-De consumer meldt zich bij de catalogus van de provider. Als er een interessant offer is met een dataset dan vraagt de consumer aan de provider of er een afspraak over het gebruik van die data gemaakt kan worden. in dataspace termen wordt dan een _Contract Negotiation_ in gang gezet.
+De consumer meldt zich bij de catalogus van de provider. Als er een interessant offer is met een dataset dan vraagt de consumer aan de provider of er een afspraak over het gebruik van die data gemaakt kan worden. In dataspace termen wordt dan een _Contract Negotiation_ in gang gezet.
 
-De provider kan eisen zo aanbieden dat de EDC die automatisch toetst. Dat vergt wel dat er een betrouwbare partij is die de claim van de consumer kan borgen. Stel de provider wil alleen onderzoekers toegang geven, dan moet iemand kunnen garanderen dat de consumer ook echt een onderzoeker is. Daar zit een complexe wereld aan infrastructuur en organisatie achter.
+De provider kan de eisen zo aanbieden dat de EDC die automatisch toetst. Dat vergt wel dat er een betrouwbare partij is die de claim van de consumer kan borgen. Stel de provider wil alleen onderzoekers toegang geven, dan moet iemand kunnen garanderen dat de consumer ook echt een onderzoeker is. Daar zit een complexe wereld aan infrastructuur en organisatie achter.
 
-Gelukkig laten de dataspace specificaties in het midden hoe de voorwaarden worden gecontroleerd. De provider kan de voorwaarden ook algemener formuleren en achteraf handmatig nagaan of de consumer zich er aan heeft gehouden. Dat is vergelijkbaar met bij bijvoorbeeld een CC-BY-SA, of een GPL licentie. In beide gevallen beloof accepteer je de voorwaarden die aan de licenties verbonden zijn. In ultimo betekent dat wanneer je die voorwaarden breekt, de andere partij achteraf een grondslag heeft om te procederen.
+Gelukkig laten de dataspace specificaties in het midden hoe de voorwaarden worden gecontroleerd. De provider kan de voorwaarden ook algemener formuleren en achteraf handmatig nagaan of de consumer zich er aan heeft gehouden. Dat is vergelijkbaar met bijvoorbeeld een CC-BY-SA, of een GPL licentie. In beide gevallen accepteer je de voorwaarden die aan de licenties verbonden zijn. In ultimo betekent dat wanneer je die voorwaarden breekt, de andere partij achteraf een grondslag heeft om te procederen.
 
 Zodra de consumer EDC de voorwaarden accepteert, stelt de provider EDC een _Contract Agreement_ beschikbaar dat de basis vormt voor het _Transfer Process_. Dit is het moment waarop een formeel akkoord wordt omgezet naar operationele toegang.
 
@@ -251,7 +251,7 @@ Stap 1 is vrij fundamenteel: de provider verklaart dat er iets is om over te ond
 
 De implementatie is bewust transparant gehouden. De code begint met een check: komt het `asset-id` al voor in de provider-catalogus? Bestaat het al, dan wordt niets aangepast. Maar iedere keer dat je mijn experiment draait, worden alle containers en data vernietigd en opnieuw opgebouwd, dus meestal zal de stap een nieuwe asset moeten registreren. Assets hebben minimale metadata en een _DataAddress_ van voor nu het type `HttpData`. Dat DataAddress wijst naar de interne container-URL (`http://localhost:7070/hello`), waar de EDC straks de consumer toegang toe gaat geven.
 
-Na registratie volgt in het experiment een expliciet controle moment. De data wordt van dat dataserver opgehaald buiten EDC om. Dat pad is bewust: één keer open zoals gebruikelijk, en dan straks via de stadspoort. Het verschil zit niet in de bytes, maar in de belofte eromheen. Zo kunnen we zien dat de data er is en dat we dezelfde gegevens krijgen als wanneer we ons straks bij de poort melden. Dit stukje hoort dus niet bij de dataspace-transactie.
+Na registratie volgt in het experiment een expliciet controle moment. De data wordt van de dataserver opgehaald buiten EDC om. Dat pad is bewust: één keer open zoals gebruikelijk, en dan straks via de stadspoort. Het verschil zit niet in de bytes, maar in de belofte eromheen. Zo kunnen we zien dat de data er is en dat we dezelfde gegevens krijgen als wanneer we ons straks bij de poort melden. Dit stukje hoort dus niet bij de dataspace-transactie.
 
 Voor experiment 1 is er slechts één protocol, één endpoint en één asset, met minimale metadata.
 
