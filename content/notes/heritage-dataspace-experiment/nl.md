@@ -1,16 +1,8 @@
 ---
-pid: p322:blog:06DSWGDD077240PD64A67BN66
 title: "Erfgoed en dataspaces: experiment 1"
-date: 2026-01-21T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/afsluitdijk.jpg
+date: "2026-01-21T00:00:00+00:00"
 excerpt: "Dataspaces duiken steeds vaker op in erfgoedbeleid, maar wat betekenen ze technisch eigenlijk? In dit eerste experiment bouw ik een werkende dataspace-transactie met Europese open-source technologie: geen diagrammen, maar echte software die je lokaal kunt draaien. Stap voor stap laat ik zien hoe providers en consumers onderhandelen, wachten, en uiteindelijk data uitwisselen onder expliciete voorwaarden. Geen abstract beleid, maar een concreet teken van leven onder het woord ‘dataspace’."
-teaser: Wat gebeurt er als erfgoeddata niet zomaar open staat, maar via afspraken wordt gedeeld? Een hands-on experiment met dataspaces, van poort tot sleutel.
-category: Achtergronden
-tagsLocal:
-  - dataspaces
-  - open-data
-  - governance
+teaser: "Wat gebeurt er als erfgoeddata niet zomaar open staat, maar via afspraken wordt gedeeld? Een hands-on experiment met dataspaces, van poort tot sleutel."
 ---
 
 In het digitaal erfgoed hoor je zo nu en dan de term: _dataspace_ oftewel dataruimte. Afgelopen jaar stak het ineens de kop op. Net genoeg om je af te vragen: wat betekent dat eigenlijk? En belangrijker: wat kan het echt? Is het een nieuwe term voor beleidsmakers? Of hangt er concrete technologie onder? Uit nieuwsgierigheid ben ik eind december 2025 op onderzoek uitgegaan. In een aantal experimenten heb ik gekeken wat het is, hoe het werkt en of ik een eigen dataspace kon bouwen. Je moet immers wat tussen het kerstdiner en de oliebollen. En met "bouwen", bedoel ik dus: werkende code voor een echte dataspace-transactie. Die je zelf ook kunt installeren. Op je computer.
@@ -25,8 +17,7 @@ Dit is een lang artikel omdat ik **twee dingen tegelijk doe**:
 
 1. uitleggen wat een dataspace is, en
 2. laten zien hoe een dataspace daadwerkelijk werkt, met een concreet experiment.
-
-Je hoeft niet alles in één keer te lezen. Kies gerust een route:
+   Je hoeft niet alles in één keer te lezen. Kies gerust een route:
 
 - **🕐 ±5 minuten – Begrip & context**  
    Wat is een dataspace, waarom duikt het op in erfgoedbeleid, en wat maakt het anders dan “oude wijn in nieuwe zakken”?  
@@ -99,9 +90,11 @@ Dat betekent dat de bronhouder nul controle heeft. Het is open data, dus een ope
 ### Welk probleem moet een dataspace oplossen?
 
 Als bronhouder/provider weet je niet wie de data vraagt en wat diegene ermee gaat doen.
+
 En als gebruiker/consumer weet je niet wat er in de data zit.
 
 Dat is een probleem.
+
 Ook in een open landschap als het erfgoed.
 
 In het afgelopen anderhalf jaar dacht ik verschillende keren: hadden we hier maar een oplossing voor.
@@ -113,6 +106,7 @@ En die keer dat ik bij een NDE knooppunt het gesprek voerde over het open beschi
 Of de realisatie dat meer controle op toegang een consequentie is van een veranderende en polariserende wereld. We kunnen niet meer naïef alles zomaar beschikbaar stellen. Er zijn groepen en landen die niet het beste met ons voor hebben. Die bijvoorbeeld belang hebben bij het saboteren van de relatie tussen Nederland en Indonesië. Of vanuit extremistische overtuiging informatie willen misbruiken. Om een bepaald beeld op onze cultuur te promoten, of juist te vernielen.
 
 Meer grip op de toegang tot data. Met zo min mogelijk afbreuk aan het open karakter van erfgoed en samenleving.
+
 Dat is een hele uitdaging.
 
 > Misschien is een dataspace daarom wel het weerbaar maken van open infrastructuur.
@@ -140,7 +134,9 @@ De provider doet dat via de Provider Management API van de EDC implementatie op 
 Hoe weet een consumer welke assets er binnen de dataspace worden aangeboden? Omdat het een peer-to-peer systeem is, kan er geen sprake zijn van een verplichte centrale waarheid waarin "alle offers" van providers staan. Dat is een bewuste ontwerpkeuze.
 
 Een dataspace heeft geen centrale macht.
+
 Geen _single point of failure_.
+
 Geen impliciete noodzaak om alles te indexeren.
 
 De consumer kent (via configuratie, governance, of een onboarding traject) bepaalde providers. En houdt een eigen lijst van provider-endpoints bij. Bij iedere bekende provider vraagt de consumer een catalogus op. Het verzamelen van de offers in die catalogi doet de consumer daarna lokaal zelf. Daardoor heeft de consumer maximale soevereiniteit, maar ik ben wel bang dat het voor geen meter schaalt. Dit werkt misschien voor pilots, gesloten consortia, en een experiment zoals dat van mij - maar niet bij grote netwerken van 100+ providers.
@@ -189,18 +185,34 @@ De **Data Plane** voert de daadwerkelijke dataoverdracht uit op basis van een be
 
 In het experiment ben ik begonnen met het maken van een basale server met een API die op `http://localhost:7070/hello` data beschikbaar stelt. Het ding is nog geen 20 regels code.
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/server.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/server.ts", "ts", 1, 19, 20, null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>server.ts</span></a>'%}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/server.ts
+lang: ts
+start: 1
+end: 19
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/server.ts
+  label: server.ts
+```
 
 Wanneer je dat adres aanroept dan krijg je terug:
 
-{% set obj = {
-  message: "Hello, Dataspace",
-  ts: "2026-01-07T14:47:50.462Z",
-  dataset: [ { id: "a1", title: "Example record", license: "CC0" } ]
-} %}
-{% jsonblock obj, 1 %}
+```p322:jsonblock
+start: 1
+value: |
+  {
+    "message": "Hello, Dataspace",
+    "ts": "2026-01-07T14:47:50.462Z",
+    "dataset": [
+      {
+        "id": "a1",
+        "title": "Example record",
+        "license": "CC0"
+      }
+    ]
+  }
+```
 
 Geen spannende dataset, maar voor nu voldoende.
 
@@ -228,20 +240,27 @@ Voor het experiment hebben we twee EDC's nodig: eentje voor de provider die vó�
 
 De dataspace-transactie heb ik in Typescript geschreven en wordt met Node uitgevoerd. In de transactie zijn de stappen afzonderlijk gemodelleerd en in het experiment worden ze achter elkaar uitgevoerd.
 
-{% cfStream "7c94c1bb7b0a1dd58abefca85cbdeab0", { lang: page.lang, aspect: "16/9", start: "00:00:00" } %}
+```p322:stream
+provider: cloudflare
+uid: 7c94c1bb7b0a1dd58abefca85cbdeab0
+aspect: 16/9
+start: 00:00:00
+```
 
 ### 1. Provider: ensure asset (Control Plane)
 
 _Je bouwt als Provider eigenlijk een muur om je basis webserver. In die muur open je een poort waar je de toegang controleert._
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/01-ensure-asset.ts" %}
-{% codefile
-  "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/01-ensure-asset.ts",
-  "ts", 1, 117, 20,
-  null,
-  '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>01-ensure-asset.ts</span></a>'
-%}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/01-ensure-asset.ts
+lang: ts
+start: 1
+end: 117
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/01-ensure-asset.ts
+  label: 01-ensure-asset.ts
+```
 
 Stap 1 is vrij fundamenteel: de provider verklaart dat er iets is om over te onderhandelen. Er wordt een asset geregistreerd in de Provider Management API, inclusief een verwijzing naar de feitelijke brondata op. Daarmee ontstaat geen toegang en geen publicatie, maar wel een ankerpunt: een benoemd object dat later via voorwaarden en contracten zichtbaar kan worden in de dataspace. Zonder deze stap is er niets om aan te bieden; zonder contractdefinitie blijft het aanbod onzichtbaar. Het is dus geen publicatie, maar een voorbereidende belofte: “hier bestaat data, en ik ben bereid die onder voorwaarden beschikbaar te gaan stellen.”
 
@@ -255,9 +274,16 @@ Voor experiment 1 is er slechts één protocol, één endpoint en één asset, m
 
 _De provider kan, als een middeleeuwse stadsbestuurder voorwaarden stellen die de wachters bij de poort moeten gaan controleren._
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/02-ensure-contract-definition.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/02-ensure-contract-definition.ts", "ts", 1, 106, 20,  null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>02-ensure-contract-definition.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/02-ensure-contract-definition.ts
+lang: ts
+start: 1
+end: 106
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/02-ensure-contract-definition.ts
+  label: 02-ensure-contract-definition.ts
+```
 
 Dit is het moment waarop een asset ophoudt een stille belofte te zijn en een aanbod wordt. Met een contractdefinitie legt de provider vast onder welke beleidsregels een asset onderhandelbaar is. Pas hier ontstaat iets dat in een catalogus kan verschijnen: geen data, maar een offer. De contractdefinitie koppelt een selectie van assets aan één of meer voorwaarden (policies) en zegt daarmee niet wie er binnen mag, maar wanneer een onderhandeling überhaupt zin heeft. Zonder deze stap blijft de catalogus leeg, hoe rijk de onderliggende data ook is.
 
@@ -271,9 +297,16 @@ Voor experiment 1 is hier bewust gesneden. Er is precies één asset, één sele
 
 _Nu gaat de consumer uitzoeken wie er in een stad op de markt staan._
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/03-fetch-catalog.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/03-fetch-catalog.ts", "ts", 1, 108, 20,  null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>03-fetch-catalog.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/03-fetch-catalog.ts
+lang: ts
+start: 1
+end: 108
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/03-fetch-catalog.ts
+  label: 03-fetch-catalog.ts
+```
 
 De consumer kijkt voor het eerst naar buiten. Niet om data op te halen, maar om te ontdekken wat er aangeboden wordt en onder welke voorwaarden. Via een catalogusverzoek vraagt de consumer zijn eigen connector om - namens hem - bij de provider te informeren welke datasets en offers beschikbaar zijn. Wat terugkomt is geen lijst met bestanden, maar een overzicht van onderhandelbare voorstellen: datasets gekoppeld aan policies. Deze stap is dus pure _discovery_. Het markeert de overgang van interne voorbereiding (stap 1 en 2) naar interactie binnen de dataspace.
 
@@ -285,9 +318,16 @@ Voor experiment 1 zijn de vereenvoudigingen bewust grof. Er wordt exact één (d
 
 _De consumer weet dat er een interessante koopman op de markt staat en besluit zich te melden bij de stadspoort_
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts", "ts", 1, 119, 20,  null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>04-negotiate-contract.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts
+lang: ts
+start: 1
+end: 119
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts
+  label: 04-negotiate-contract.ts
+```
 
 In EDC-termen is dit het formele moment van aankloppen. De consumer zet een catalogusoffer om in een expliciet verzoek aan de provider: mag ik deze asset gebruiken onder de voorwaarden die jij hebt gepubliceerd? Dit is geen technische datatransfer, maar een juridische en semantische handeling. De onderhandeling resulteert, bij succes, in een contract agreement dat beide connectors bindt. Pas vanaf dit punt bestaat er een gedeelde werkelijkheid waarin “toegang” betekenis heeft binnen de dataspace.
 
@@ -301,9 +341,16 @@ We komen nu een beetje aan het einde van de houdbaarheid van de metafoor...
 
 _Er gaat een luikje in de poort open waardoor de poortwachter straks een sleutel aanreikt waarmee de bezoeker zélf de poort kan openen_
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/05-start-transfer.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/05-start-transfer.ts", "ts", 1, 103, 20,  null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>05-start-transfer.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/05-start-transfer.ts
+lang: ts
+start: 1
+end: 103
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/05-start-transfer.ts
+  label: 05-start-transfer.ts
+```
 
 Een abstract akkoord gaat in deze stap tastbaar worden. Het contract uit de vorige stap bestaat, maar zolang er geen transferproces is gestart, blijft het een "papieren" werkelijkheid. Met deze stap vraagt de consumer de provider om het afgesproken recht om te zetten in operationele toegang. Er stroomt nog geen data, maar de infrastructuur wordt voorbereid: de wachters worden geïnstrueerd. Dit is de overgang van juridische toestemming naar technische mogelijkheid, en daarmee een cruciale schakel tussen onderhandeling en gebruik.
 
@@ -315,9 +362,16 @@ Voor experiment 1 zijn hier duidelijke vereenvoudigingen aangebracht. Er wordt u
 
 _De sleutel wordt overhandigd_
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/06-fetch-edr.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/06-fetch-edr.ts", "ts", 1, 109, 20,  null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>06-fetch-edr.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/06-fetch-edr.ts
+lang: ts
+start: 1
+end: 109
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/06-fetch-edr.ts
+  label: 06-fetch-edr.ts
+```
 
 De dataspace houdt nu op abstract te zijn. De transfer is gestart, de voorwaarden zijn geaccepteerd, en nu verschijnt de EDR: de _Endpoint Data Reference_. Dat is een tijdelijk recht om de bestaande poort te gebruiken. De EDR combineert twee dingen die strikt bij elkaar horen: een _data endpoint_ en een autorisatiecode (we noemen dat een _token_). Samen vormen ze de concrete vertaling - de operationalisering - van het contract en de transfer naar een uitvoerbare handeling. Zonder EDR blijft toegang een belofte; met EDR wordt het uitvoerbaar.
 
@@ -331,9 +385,16 @@ Voor experiment 1 spelen de volgende aannames. Er wordt uitgegaan van precies é
 
 _Door de poort naar binnen_
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/07-data-access.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/07-data-access.ts", "ts", 1, 78, 20,  null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>07-data-access.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/07-data-access.ts
+lang: ts
+start: 1
+end: 78
+lines: 20
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/07-data-access.ts
+  label: 07-data-access.ts
+```
 
 Hier komt alles samen. De contractonderhandeling is afgerond, de transfer is gestart en de EDR is opgehaald. Nu wordt de beschermde data daadwerkelijk door de consumer benaderd. Dit gebeurt buiten de Management API’s van de EDC om, via een regulier HTTP-verzoek naar het publieke data-endpoint van de provider. Dat is dus niet het `localhost:7070/hello` endpoint! Dat blijft veilig achter dat publieke data-endpoint van de provider staan.
 
@@ -349,17 +410,31 @@ Voor experiment 1 is deze stap bewust minimaal gehouden. Er wordt altijd het _ro
 
 Allereerst: dit is een experiment en geen productiecode. Dus het kan echt kapot gaan - en ik zal zeker niet alles hebben gezien op mijn Mac. Grootste probleem zijn denk ik _race-conditions_ waar ik tijdens het experiment continu mee werd geconfronteerd. Ik heb een aantal aanpassingen moeten doen om ze in ieder geval op twee plekken weg te werken: (1) de containers starten asynchroon en soms wilde het experiment al beginnen voordat alle benodigde API's beschikbaar waren. In het `start-containers.sh` script - dat de initialisatie doet - staan daarom een aantal checks waarbij het ding blijft wachten en pollen tot alles beschikbaar is.
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/scripts/start-containers.sh" %}
-{% codefile "lab/dataspace-experiments/exp-01/scripts/start-containers.sh", "sh", 91, 104, 15, null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>start-containers.sh</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/scripts/start-containers.sh
+lang: sh
+start: 91
+end: 104
+lines: 15
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/scripts/start-containers.sh
+  label: start-containers.sh
+```
 
 Verder is (2) het experiment zelf de interactie tussen twee EDC servers via het DSP dataspaceprotocol. Die communicatie is natuurlijk ook asynchroon en soms moeten de twee op elkaar wachten.
 
 Bijvoorbeeld in stap 4 tijdens de contractonderhandeling:
 
-{% set gh = "https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts" %}
-{% codefile "lab/dataspace-experiments/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts", "ts", 85, 92, 8, null, '<a class="codeblock-gh" href="' ~ gh ~ '" rel="noopener noreferrer" target="_blank"><img src="/assets/icons/github-logo.svg" alt="" aria-hidden="true">
-  <span>04-negotiate-contract.ts</span></a>' %}
+```p322:codefile
+path: lab/dataspace-experiments/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts
+lang: ts
+start: 85
+end: 92
+lines: 8
+source:
+  url: https://github.com/p-322/dataspace-experiments/blob/main/exp-01/src/dataspace-process/steps/04-negotiate-contract.ts
+  label: 04-negotiate-contract.ts
+```
 
 Ik heb de functie `waitForState` toegevoegd die in dit geval 60 seconden wacht tot een _timeout_. Dat is al fors, maar mocht je tijdens het herhalen van dit experiment communicatieproblemen tussen consumer en provider merken, dan is het misschien een oplossing om nog wat langer te wachten.
 

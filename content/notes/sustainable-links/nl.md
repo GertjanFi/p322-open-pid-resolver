@@ -1,19 +1,11 @@
 ---
-pid: p322:blog:06DN93W5Y0X5ES77F31YC4SKW
 title: "Duurzame links: waarom niet alles wat blijft, ook alles moet doen"
-date: 2026-01-14T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/duurzame-links.jpg
+date: "2026-01-14T00:00:00+00:00"
 excerpt: "Duurzame links klinken als een technische keuze, tot je ontdekt dat het echte probleem organisatorisch is: één infrastructuur die tegelijk archivering, wetenschappelijke citatie én marketing moet dragen. In dit blog neem ik je mee langs Handle, DOI, ARK en zelfs PURL - maar vooral langs de vraag die daaronder ligt: wat mag je permanent beloven, en wat wil je alleen tijdelijk meten? Met een verrassend simpele ontwerpregel als uitkomst: scheid identiteit van aandacht."
-teaser: Wat gebeurt er als je dezelfde link gebruikt om te citeren, te archiveren én clicks te tellen? Dit blog neemt je mee langs Handle, DOI, ARK en PURL, en laat zien waarom duurzame identificatie stukloopt zodra je het laat meedraaien met marketing - en hoe je dat voorkomt met één principiële scheiding.
-category: Achtergronden
-tagsLocal:
-  - persistency
-  - open-data
-  - governance
+teaser: "Wat gebeurt er als je dezelfde link gebruikt om te citeren, te archiveren én clicks te tellen? Dit blog neemt je mee langs Handle, DOI, ARK en PURL, en laat zien waarom duurzame identificatie stukloopt zodra je het laat meedraaien met marketing - en hoe je dat voorkomt met één principiële scheiding."
 ---
 
-Afgelopen december heb ik persistente identificatie geïmplementeerd. Niet alleen de techniek, maar juist ook het beleid waarmee we gebruikers het vertrouwen willen geven om met een gerust hart naar onze links te verwijzen. Ik schreef daar een blog over: ["Namen die blijven: over persistente identifiers zonder eeuwigheidswaan"](/nl/posts/20260107-namen-die-blijven-over-persistent-identifiers-zonder-eeuwigheidswaan). Daarin stelde ik dat persistentie niet gelijk staat aan “een Handle of ARK hebben” - en dat sommige organisaties, zoals startups, misschien wel zonder móéten omdat er vaak nogal wat voorwaarden aan verbonden zijn.
+Afgelopen december heb ik persistente identificatie geïmplementeerd. Niet alleen de techniek, maar juist ook het beleid waarmee we gebruikers het vertrouwen willen geven om met een gerust hart naar onze links te verwijzen. Ik schreef daar een blog over: ["Namen die blijven: over persistente identifiers zonder eeuwigheidswaan"](note:enduring-names-persistent-identification). Daarin stelde ik dat persistentie niet gelijk staat aan “een Handle of ARK hebben” - en dat sommige organisaties, zoals startups, misschien wel zonder móéten omdat er vaak nogal wat voorwaarden aan verbonden zijn.
 
 Dat laatste bleek een aanname. Na afronding van dat blog en het opleveren van de implementatie besloot ik de proef op de som te nemen en een ARK aan te vragen.
 
@@ -315,4 +307,4 @@ Je hebt een duurzame identiteit. Je hebt een communicatie knooppunt. Je hebt int
 
 Het voelt bijna saai. Net zo saai als een testament opstellen.
 
-Maar saai en degelijk, zo [leerde ik vorig jaar op de NDE HackaLOD](/nl/posts/20251103-hackalod-2025-waarom-saai-de-basis-van-cool-is), is vaak precies het juiste gevoel bij infrastructuur die langer mee moet gaan dan je eigen aandachtsspan.
+Maar saai en degelijk, zo [leerde ik vorig jaar op de NDE HackaLOD](note:hackalod-2025-why-boring-is-cool), is vaak precies het juiste gevoel bij infrastructuur die langer mee moet gaan dan je eigen aandachtsspan.

@@ -1,15 +1,8 @@
 ---
-pid: p322:blog:01J6E8F3PEM9H4Q7R2K8V1CW
 title: "Cache, Not Copies: A Remedy Against Aggregation"
-date: 2025-12-04T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/cache-geen-kopie-tegen-aggregatie.jpg
+date: "2025-12-04T00:00:00+00:00"
 excerpt: "The first blog with lessons learned from treating colonial collections as a service platform.<br/><br/>The Datahub lives on the rhythm of nightly synchronizations: every day the entire knowledge graph is rebuilt from scratch. Not to preserve it, but to remain deliberately disposable. A dataset that cannot be fully reconstructed from its source is an aggregate. By remaining fully reproducible, the Datahub prevents itself from becoming an authority and stays a service provider rather than a gatekeeper."
 teaser: "The first blog in P-322 lessons for service platforms is live. Discover why the Datahub Colonial Collections is rebuilt from scratch every night and how this radical “disposability” prevents a service platform from becoming an authority itself. Explore the core of truly reproducible data sharing."
-category: Backgrounds
-tagsLocal:
-  - caching
-  - aggregation
 ---
 
 Around five in the morning, somewhere between the nightly data synchronization and my second pot of tea, I realized that our service, the [Datahub Colonial Collections](https://app.colonialcollections.nl/en), has an unusual rhythm. While most systems cradle their data as if it were irreplaceable, the Datahub starts fresh every single night. All datasets are reloaded, disentangled, and rebuilt as if the platform refuses to maintain a memory of its own.

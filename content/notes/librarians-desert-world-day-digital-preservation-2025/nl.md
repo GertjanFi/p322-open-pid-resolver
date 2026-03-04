@@ -1,14 +1,7 @@
 ---
-pid: p322:blog:01J6E8F3P9R7M4Q2H8KVC1WZ
-title: De bibliothecarissen van de woestijn — Reflecties op de Werelddag voor Digitale Duurzaamheid 2025
-date: 2025-11-07T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/timbuktu-haidara.jpg
+title: "De bibliothecarissen van de woestijn — Reflecties op de Werelddag voor Digitale Duurzaamheid 2025"
+date: "2025-11-07T00:00:00+00:00"
 excerpt: "Tijdens de Werelddag voor Digitale Duurzaamheid 2025 in Utrecht vertelde ik het verhaal van Abdel Kader Haidara, de bibliothecaris die 375.000 manuscripten uit Timboektoe redde. Zijn daad van verzet tegen vergetelheid werd het morele kompas van een dag vol digitale inspiratie, nieuwe tools, en de vraag: Why Preserve?."
-category: Achtergronden
-tagsLocal:
-  - nde
-  - "Werelddag voor Digitale Duurzaamheid"
 ---
 
 Gisteren mocht ik in Kanaal30 in Utrecht gastheer en spreekstalmeester zijn op de **Werelddag voor Digitale Duurzaamheid 2025**. Een zaal vol erfgoedprofessionals, archivarissen, programmeurs, kunstenaars en datastrategen keek mij verwachtingsvol aan. Ik opende met een foto van een man die maar weinig mensen kennen. Voor mij is het een held.
@@ -29,11 +22,11 @@ Dat was het thema. En het antwoord kwam niet in definities of beleidsnota’s, m
 
 Eenmaal in Bamako begon een langdurig digitaliserinsproject mede gefinancierd door Google. Een flink deel van deze digitale collectie is op <a href="https://artsandculture.google.com/experiment/the-timbuktu-manuscripts/BQE6pL2U3Qsu2A?hl=en" target="_new">Google Arts & Culture doorzoekbaar</a>.
 
-En deze zomer keerden de eerste 200 kisten met manuscripten, na dertien jaar ballingschap, terug naar Timboektoe. Het nieuws stond groot in <a href="https://www.theguardian.com/world/2025/aug/14/timbuktu-manuscripts-taken-to-bamako-to-protect-them-from-jihadist-militants-returned?utm_source=chatgpt.com" target="_blank">The Guardian</a> en <a href="https://apnews.com/article/mali-bamako-timbuktu-alqaida-unesco-785663f5854718cca7abdcc95ddeba66" target="_blank">AP News</a>. Maar in Nederland bleef het stil. Geen voorpagina’s, geen televisie. En toch waren wij onderdeel van de redding. Daarom wilde ik, als gastheer van deze Werelddag, de stilte doorbreken. Om Haidara en alle bibliothecarissen in de woestijn te eren.
+En deze zomer keerder de eerste 200 kisten met manuscripten, na dertien jaar ballingschap, terug naar Timboektoe. Het nieuws stond groot in <a href="https://www.theguardian.com/world/2025/aug/14/timbuktu-manuscripts-taken-to-bamako-to-protect-them-from-jihadist-militants-returned?utm_source=chatgpt.com" target="_blank">The Guardian</a> en <a href="https://apnews.com/article/mali-bamako-timbuktu-alqaida-unesco-785663f5854718cca7abdcc95ddeba66" target="_blank">AP News</a>. Maar in Nederland bleef het stil. Geen voorpagina’s, geen televisie. En toch waren wij onderdeel van de redding. Daarom wilde ik, als gastheer van deze Werelddag, de stilte doorbreken. Om Haidara en alle bibliothecarissen in de woestijn te eren.
 
 ## Een dag vol verbindingen
 
-Na dat begin zwermde de dag uit in een wervelwind van ideeën, demonstraties en discussies. Vanuit Utrecht verbonden we ons live met Gent, en keken we via een vlog mee in Nieuw-Zeeland, waar _iPRES 2025_ plaatsvond. In het video-interview vertelde Matthias Priem van Meemoo over erfgoed op verdwijnende eilanden — een letterlijk zinkend archief. De vraag “Why Preserve?” klonk ineens niet academisch, maar existentieel.
+Na dat begin zwermde de dag uit in een wervelwind van ideeën, demonstraties en discussies. Vanuit Utrecht verbonden we ons live met Gent, en keken we via een vlog mee in Nieuw-Zeeland, waar _iPRES 2025_ plaatsvond. In het video-interview vertelde Matthias Priem van meemoo over erfgoed op verdwijnende eilanden — een letterlijk zinkend archief. De vraag “Why Preserve?” klonk ineens niet academisch, maar existentieel.
 
 ## Nieuwe launches, oude hardware
 

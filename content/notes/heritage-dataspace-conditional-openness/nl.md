@@ -1,16 +1,8 @@
 ---
-pid: p322:blog:06E095M5FA08MZ664KEXDKT7W
 title: "Is een erfgoed dataspace nog wel een open data infrastructuur?"
-date: 2026-02-04T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/afsluitdijk-3.jpg
+date: "2026-02-04T00:00:00+00:00"
 excerpt: "Open data klinkt eenvoudig, maar in de praktijk is het dat zelden. Wie erfgoeddata deelt, botst onvermijdelijk op juridische grenzen, technische beperkingen, ethische afwegingen en geopolitieke realiteit. Voordat ik volgende week het vierde dataspace-experiment publiceer, sta ik in dit blog stil bij een fundamentelere vraag: wat betekent het eigenlijk om toegangsvoorwaarden te stellen binnen een open data infrastructuur? Wanneer is “open” niet meer onvoorwaardelijk? En hoe vertaal je beleid, vertrouwen en verantwoordelijkheid naar technologie? Dit blog verkent waar openheid schuurt, waar controle onvermijdelijk wordt, en waarom dataspaces juist daar hun waarde laten zien."
 teaser: "Wat gebeurt er als “open” niet langer onvoorwaardelijk is? In dit blog laat ik zien waar openheid schuurt, en verken ik wat dat betekent voor erfgoeddata, beleid en dataspaces."
-category: Achtergronden
-tagsLocal:
-  - dataspaces
-  - open-data
-  - governance
 ---
 
 Open data klinkt als een belofte. Maar steeds vaker voelt het als een risico. Niet omdat instellingen minder open wíllen zijn, maar omdat de wereld waarin die data circuleert fundamenteel is veranderd. Juridische claims, privacy, geopolitiek, AI-training, commerciële extractie, hybride dreiging: het zijn geen randverschijnselen meer, maar dagelijkse realiteit voor iedereen die data beheert. Ook erfgoeddata.
@@ -22,7 +14,7 @@ In een wereld waarin openheid niet meer onschuldig is, wordt toegangsbeleid geen
 
 ## Open is niet onvoorwaardelijk
 
-In deze serie over dataspaces liet ik in [het eerste blog](/nl/posts/20260121-erfgoed-en-de-dataspace-een-experiment) zien wat een dataspace is en welk probleem het probeert op te lossen. In [tweede blog](/nl/posts/20260128-erfgoed-en-de-dataspace-experiment-2-en-3)￼bouwde ik die opzet uit met meerdere partijen en concrete transacties.
+In deze serie over dataspaces liet ik in [het eerste blog](note:heritage-dataspace-experiment) zien wat een dataspace is en welk probleem het probeert op te lossen. In het [tweede blog](note:heritage-dataspace-experiment-2-and-3) bouwde ik die opzet uit met meerdere partijen en concrete transacties.
 
 Voordat ik verder ga met nieuwe experimenten, stel ik hier een fundamentelere vraag: wat betekenen toegangsvoorwaarden voor een infrastructuur die zichzelf “open data” noemt? Wat gebeurt er met openheid zodra je juridische, ethische, technische en geopolitieke grenzen serieus neemt?
 

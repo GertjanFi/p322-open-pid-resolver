@@ -1,14 +1,7 @@
 ---
-pid: p322:blog:01J6E8F3PA4H7Q2K9M8R1VCW
 title: "Dienstplatform Datahub Koloniale Collecties deel 1: De gebruikersomgeving"
-date: 2025-11-11T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/bird-of-prophecy.jpg
-excerpt: De Datahub voor Koloniale Collecties is een van de eerste concrete voorbeelden van een  dataspace in het erfgoeddomein. In deze infrastructuur worden collecties uit Nederlandse musea met een koloniale context samengebracht en verrijkt met kennis van gemeenschappen van herkomst. Zoals bij de Bird of Prophecy uit Nigeria. De Datahub maakt die kennis zichtbaar als gelijkwaardige bronnen binnen één gedeeld systeem.</br></br>Dit deel 1 gaat over de gebruikersomgeving van de datahub.
-category: Achtergronden
-tagsLocal:
-  - "Koloniale Collecties"
-  - dienstplatform
+date: "2025-11-11T00:00:00+00:00"
+excerpt: "De Datahub voor Koloniale Collecties is een van de eerste concrete voorbeelden van een dataspace in het erfgoeddomein. In deze infrastructuur worden collecties uit Nederlandse musea met een koloniale context samengebracht en verrijkt met kennis van gemeenschappen van herkomst. Zoals bij de Bird of Prophecy uit Nigeria. De Datahub maakt die kennis zichtbaar als gelijkwaardige bronnen binnen één gedeeld systeem.</br></br>Dit deel 1 gaat over de gebruikersomgeving van de datahub."
 ---
 
 ## From Data to Blueprint
@@ -17,7 +10,12 @@ Tijdens de bijeenkomst From Data to Blueprint, georganiseerd door Europeana en h
 
 Dit is deel 1 van de presentatie waarin ik de gebruikersomgeving van de datahub laat zien. In het volgende deel ga ik in op de onderliggende infrastructuur en hoe die volledig voldoet aan de DERA en NDE-eisen. Tot slot, in deel 3, maak ik de brug naar dataspaces.
 
-{% cfStream "45f758dc990aaccb510288e3360a100c", { lang: page.lang, aspect: "16/9", start: "00:00:10" } %}
+```p322:stream
+provider: cloudflare
+uid: 45f758dc990aaccb510288e3360a100c
+aspect: 16/9
+start: 00:00:10
+```
 
 ## Collecties met een koloniale context
 

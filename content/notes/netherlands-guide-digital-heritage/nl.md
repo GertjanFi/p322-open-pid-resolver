@@ -1,16 +1,7 @@
 ---
-pid: p322:blog:01J6E8F3P5N4V6R8H2M9D1KQTC
 title: "Nederland als gidsland in digitaal erfgoed: wat zijn NDE, NSDE en DERA"
-date: 2025-05-12T00:00:00.000Z
-authorKey: gertjan
-onHomepage: false
-image: /assets/images/knowledge/nsde.png
+date: "2025-05-12T00:00:00+00:00"
 excerpt: "Digitale toegankelijkheid is allang geen technisch detail meer — het is erfgoedzorg. Achter die transformatie schuilt een slim samenspel van beleid, netwerk en architectuur: de NSDE, het NDE en de DERA. Samen vormen ze het fundament waarop Nederland wereldwijd als gidsland voor digitaal erfgoed wordt gezien."
-category: Achtergronden
-tagsLocal:
-  - DERA
-  - RCE
-  - NSDE
 ---
 
 Wie vandaag in een museum, archief of bibliotheek werkt, voelt het elke dag: erfgoed leeft niet alleen in depots en vitrines, maar ook in data. Van scans tot kennisgrafen — digitale toegankelijkheid is inmiddels een kerntaak van het Nederlandse erfgoedveld. Achter die digitale transformatie schuilt een doordachte structuur van beleid, samenwerking en techniek: **de NSDE, het NDE, en de DERA**.
@@ -22,6 +13,7 @@ Sinds 2015 voert het Ministerie van Onderwijs, Cultuur en Wetenschap (OCW) een n
 ## Het NDE: het netwerk dat het mogelijk maakt
 
 De uitvoering van die strategie ligt bij het **Netwerk Digitaal Erfgoed (NDE)**. Dat netwerk is niet één organisatie, maar een levend ecosysteem van mensen en instellingen: musea, archieven, bibliotheken, ondersteunende organisaties, softwareontwikkelaars, opleiders en erfgoedgemeenschappen — verspreid over het hele Koninkrijk.
+
 Samen geven zij de NSDE handen en voeten. Binnen het NDE wordt kennis gedeeld, worden standaarden ontwikkeld en ontstaan samenwerkingen die erfgoed duurzaam zichtbaar en bruikbaar maken voor iedereen.
 
 ## De DERA: de bouwtekening van het digitale erfgoed

@@ -1,15 +1,7 @@
 ---
-pid: p322:blog:01J6E8F3P7C4H2QK9R8M6V1WZ
-title: The Nieuwe Instituut as Architect in Digital Heritage Infrastructure
-date: 2025-09-07T00:00:00.000Z
-authorKey: gertjan
-onHomepage: false
-image: /assets/images/knowledge/nieuwe-instituut.jpg
-excerpt: The Nieuwe Instituut shows that digital heritage infrastructure is not a future plan but a present reality. With *The Other Interface*, the institute translates the DERA principles into practice and becomes a guide for the network.
-category: Consultancy
-tagsLocal:
-  - "nieuwe instituut"
-  - DERA
+title: "The Nieuwe Instituut as Architect in Digital Heritage Infrastructure"
+date: "2025-09-07T00:00:00+00:00"
+excerpt: "The Nieuwe Instituut shows that digital heritage infrastructure is not a future plan but a present reality. With *The Other Interface*, the institute translates the DERA principles into practice and becomes a guide for the network."
 ---
 
 Digital infrastructure rarely sounds sexy. But anyone who looks under the hood of _The Other Interface_ (TOI) — the platform through which the Nieuwe Instituut makes its collections visible — will see something remarkable: a laboratory for the future of digital heritage in the Netherlands.

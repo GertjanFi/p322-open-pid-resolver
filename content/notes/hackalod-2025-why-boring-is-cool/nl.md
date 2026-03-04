@@ -1,14 +1,7 @@
 ---
-pid: p322:blog:01J6E8F3P8M9R2H7V4KQ1CZWX
 title: "De dag na de HackaLOD: waarom degelijk de basis is van cool"
-date: 2025-11-03T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/hackalod-2025.jpg
-excerpt: Binnen 24 uur een complete, DERA-conforme datastructuur opbouwen? Tijdens de HackaLOD 2025 bewezen we dat het kon.
-category: Achtergronden
-tagsLocal:
-  - nde
-  - Hackalod
+date: "2025-11-03T00:00:00+00:00"
+excerpt: "Binnen 24 uur een complete, DERA-conforme datastructuur opbouwen? Tijdens de HackaLOD 2025 bewezen we dat het kon."
 ---
 
 Het is de day after. Gisteren en afgelopen vrijdag deed ik voor het eerst mee aan de **#HackaLOD2025** van Netwerk Digitaal Erfgoed. Na ruim twintig jaar in de erfgoedsector moest het er een keer van komen.
@@ -41,13 +34,13 @@ De linked data hebben we via een API ontsloten, en daar kon Team Cool bij. De id
 
 Team Saai (dat zichzelf al snel omdoopte tot _Team Degelijk_, en later _Team Weldegelijk_) ging de uitdaging aan om in 24 uur een hele NDE-infrastructuur — van ruwe brondata tot dienstplatform — op te bouwen met alleen bestaande software.
 
-De pijplijn begon bij die beruchte Excel: opgeschoond en omgezet naar linked data met het nieuwe product waar Jauco Noordzij￼ en ik aan werken. De triples stroomden daarna een triplestore in — uiteraard TriplyDB, met Wouter in het team, maar in principe werkt elke linked-database.
+De pijplijn begon bij die beruchte Excel: opgeschoond en omgezet naar linked data met het nieuwe product waar Jauco Noordzij en ik aan werken. De triples stroomden daarna een triplestore in — uiteraard TriplyDB, met Wouter in het team, maar in principe werkt elke linked-database.
 
 We hadden de dataset kunnen aanmelden in het NDE Dataset Register en een iets van ARKS kunnen aanvragen voor persistente identificatie; maar een hackathon-team is niet bepaald een duurzame organisatievorm.
 
 Vervolgens bouwden we een dienst die de linked data ophaalt en gebruikersvriendelijk ontsluit, met daaronder een ElasticSearch-cache (voor de nerds: ja, natuurlijk zit er een cache onder).
 
-Voor de interface grepen we terug op de open-source code van de Datahub Koloniale Collecties. Die hebben we omgekat tot datahub.harnem.nl￼ — met alle bekende functionaliteit: open search, facetted filtering, meertaligheid, en login via Clerk.
+Voor de interface grepen we terug op de open-source code van de Datahub Koloniale Collecties. Die hebben we omgekat tot datahub.harnem.nl — met alle bekende functionaliteit: open search, facetted filtering, meertaligheid, en login via Clerk.
 
 Gebruikers kunnen daar commentaar, correcties of extra context achterlaten.
 Die feedback slaan we op als **nanopublicaties**: linked data die buiten de hub leeft.

@@ -1,16 +1,8 @@
 ---
-pid: p322:blog:06DKAHGGB8D8Z5NYKP4J1AYCZ
 title: "Namen die blijven: over persistent identifiers zonder eeuwigheidswaan."
-date: 2026-01-07T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/namen-die-blijven.jpg
+date: "2026-01-07T00:00:00+00:00"
 excerpt: "Links voelen als beton, tot ze ineens zand blijken. In erfgoeddata is dat geen detail maar een risico: wat vandaag werkt, kan morgen verdwijnen door een nieuwe leverancier, een herstructurering, of een wisseling van bestuur. In dit blog laat ik zien waarom een URL geen belofte is, wat een PID wél doet, en hoe je met minimale, nuchtere infrastructuur vertrouwen bouwt - zonder eeuwigheidswaan. Als je collecties langer moeten leven dan je organisatie, wil je dit lezen."
-teaser: Persistente identifiers zijn beleid. Ontdek waarom échte digital-heritage-continuïteit begint bij afspraken, en niet bij Handle's of ARK's, en wat dat van organisaties vraagt.
-category: Achtergronden
-tagsLocal:
-  - dataspaces
-  - open-data
-  - governance
+teaser: "Persistente identifiers zijn beleid. Ontdek waarom échte digital-heritage-continuïteit begint bij afspraken, en niet bij Handle's of ARK's, en wat dat van organisaties vraagt."
 ---
 
 Digitale infrastructuur zit vol tijdelijke oplossingen die zich voordoen als permanent. Internetadressen, softwarekoppelvlakken/APIs, dashboards: ze voelen betrouwbaar omdat ze vandaag werken. Maar erfgoed leeft langer dan een contract, een leverancier, een projectfase, en langer dan een organisatie. Wie dat serieus neemt, kan niet blijven doen alsof een link voldoende is.

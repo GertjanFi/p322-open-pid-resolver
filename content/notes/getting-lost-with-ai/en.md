@@ -1,15 +1,8 @@
 ---
-pid: p322:blog:06DKAEKAMZHSJ0PXYT8VVPHAP
-title: The Art of Getting Lost with AI
-date: 2025-12-30T00:00:00.000Z
-authorKey: gertjan
-onHomepage: false
-image: /assets/images/knowledge/kunst-van-verdwalen.jpg
-excerpt: In my attempt to install a simple analytics tool, I got tangled in a chain of seemingly plausible AI suggestions — each just convincing enough to continue. What began as a fifteen-minute task turned into hours of trying, correcting, and hoping the next step would work. It became a lesson in how language models simulate confidence, how easily you get swept along, and how important it remains to verify every step yourself.
-teaser: Read the new P-322 blog on how a simple installation spun out of control through a chain of almost-plausible ChatGPT instructions, and why this misleading persuasive power of language models forces you to verify every step yourself.
-category: Backgrounds
-tagsLocal:
-  - ai
+title: "The Art of Getting Lost with AI"
+date: "2025-12-30T00:00:00+00:00"
+excerpt: "In my attempt to install a simple analytics tool, I got tangled in a chain of seemingly plausible AI suggestions — each just convincing enough to continue. What began as a fifteen-minute task turned into hours of trying, correcting, and hoping the next step would work. It became a lesson in how language models simulate confidence, how easily you get swept along, and how important it remains to verify every step yourself."
+teaser: "Read the new P-322 blog on how a simple installation spun out of control through a chain of almost-plausible ChatGPT instructions, and why this misleading persuasive power of language models forces you to verify every step yourself."
 ---
 
 Somewhere between hope and hubris, I sat behind my laptop. I wanted to do something simple: install the open-source package Umami to measure traffic on the P-322 website. No rocket science, no machine-learning project — just a lightweight analytics tool that stays neatly within European regulations.

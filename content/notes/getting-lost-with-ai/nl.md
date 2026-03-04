@@ -1,15 +1,8 @@
 ---
-pid: p322:blog:06DKAEKAMZHSJ0PXYT8VVPHAP
-title: De Kunst van Verdwalen met AI
-date: 2025-12-30T00:00:00.000Z
-authorKey: gertjan
-onHomepage: false
-image: /assets/images/knowledge/kunst-van-verdwalen.jpg
-excerpt: In mijn poging een simpele analytics-tool te installeren, raakte ik verstrikt in een keten van ogenschijnlijk plausibele AI-adviezen die steeds nét geloofwaardig genoeg waren om door te gaan. Wat begon als een kwartierklus veranderde in uren zoeken, corrigeren en hopen dat de volgende stap wél zou werken. Het werd een les in hoe taalmodellen overtuiging simuleren, hoe snel je daarin meegaat, en hoe belangrijk het blijft om elke stap zelf te verifiëren.
-teaser: Lees het nieuwe P-322 blog over hoe een simpele installatie met ChatGPT ontspoorde in een reeks bijna-plausibele AI-adviezen, en waarom deze misleidende overtuigingskracht van taalmodellen je dwingt elke stap zelf te verifiëren.
-category: Achtergronden
-tagsLocal:
-  - ai
+title: "De Kunst van Verdwalen met AI"
+date: "2025-12-30T00:00:00+00:00"
+excerpt: "In mijn poging een simpele analytics-tool te installeren, raakte ik verstrikt in een keten van ogenschijnlijk plausibele AI-adviezen die steeds nét geloofwaardig genoeg waren om door te gaan. Wat begon als een kwartierklus veranderde in uren zoeken, corrigeren en hopen dat de volgende stap wél zou werken. Het werd een les in hoe taalmodellen overtuiging simuleren, hoe snel je daarin meegaat, en hoe belangrijk het blijft om elke stap zelf te verifiëren."
+teaser: "Lees het nieuwe P-322 blog over hoe een simpele installatie met ChatGPT ontspoorde in een reeks bijna-plausibele AI-adviezen, en waarom deze misleidende overtuigingskracht van taalmodellen je dwingt elke stap zelf te verifiëren."
 ---
 
 Ergens tussen hoop en hoogmoed zat ik achter mijn laptop. Ik wilde iets eenvoudigs doen: het open-source pakket Umami installeren om het gebruikersverkeer op de P-322-website te meten. Geen _rocket science_, geen machine-learningproject, gewoon een lichtgewicht analytics-tool die netjes binnen Europese regels blijft.

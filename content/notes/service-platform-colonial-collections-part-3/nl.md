@@ -1,24 +1,22 @@
 ---
-pid: p322:blog:01J6E8F3PDQ7M2H4K9R8V1CW
 title: "Dienstplatform Datahub Koloniale Collecties deel 3: van NDE-infrastructuur naar dataspace"
-date: 2025-11-27T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/bird-of-prophecy-3.jpg
+date: "2025-11-27T00:00:00+00:00"
 excerpt: "De Datahub Koloniale Collecties verwerkt en publiceert automatisch museumdata volgens NDE-principes: technisch correct, juridisch toegestaan en transparant herleidbaar. Maar bij datasets met koloniale objecten of menselijke resten schuift de vraag van kan het? naar moeten we dit willen?<br/><br/> Om verantwoord te publiceren zijn vier kaders nodig: contextueel, technisch, juridisch én ethisch. In een Europese dataspace worden die kaders afdwingbaar in protocollen. Zo ontstaat verantwoord en betrouwbaar data-delen, met trust by design ingebouwd in de infrastructuur."
-teaser: Het slotdeel van de P-322-serie over de Koloniale Collecties staat live. Zie hoe de Datahub transformeert tot Europese dataspace en waarom dat de manier waarop we erfgoeddatasets delen verandert. Ontdek het nu.
-category: Achtergronden
-tagsLocal:
-  - "Koloniale Collecties"
-  - dataspaces
-  - nde
+teaser: "Het slotdeel van de P-322-serie over de Koloniale Collecties staat live. Zie hoe de Datahub transformeert tot Europese dataspace en waarom dat de manier waarop we erfgoeddatasets delen verandert. Ontdek het nu."
 ---
 
 ## De Datahub als dienstplatform – deel 3
 
-In [deel 1](/nl/posts/20251113-dienstplatform-datahub-koloniale-collecties-deel-1-de-gebruikersomgeving) verkenden we de gebruikersomgeving van de Datahub Koloniale Collecties. In [deel 2](/nl/20251120-dienstplatform-datahub-koloniale-collecties-deel-2-infrastructuur-en-NDE-compliance) bekeken we de infrastructuur en hoe die aansluit op de NDE-architectuur.  
+In [deel 1](note:service-platform-colonial-collections-part-1) verkenden we de gebruikersomgeving van de Datahub Koloniale Collecties. In [deel 2](note:service-platform-colonial-collections-part-2) bekeken we de infrastructuur en hoe die aansluit op de NDE-architectuur.
+
 In dit laatste deel maken we de stap naar de Europese toekomst: de dataspace.
 
-{% cfStream "4a8c79adcb16a8c3791a294c44553c4c", { lang: page.lang, aspect: "16/9", start: "00:00:10" } %}
+```p322:stream
+provider: cloudflare
+uid: 4a8c79adcb16a8c3791a294c44553c4c
+aspect: 16/9
+start: 00:00:10
+```
 
 ## Van automatisch datastromen naar verantwoord data-delen
 
@@ -32,27 +30,22 @@ Om verantwoord te kunnen publiceren moet een dienstverlener met behulp van de me
 
 1. **Contextueel: zullen we de data ontsluiten?**  
    Past de dataset bij de dienst en de maatschappelijke context? Bevat het bijvoorbeeld koloniale objecten uit de juiste periode?
-
 2. **Technisch: kunnen we de data verwerken?**  
    Zijn encodering, datumnotaties, lege waarden, links en modellen geschikt voor verwerking?
-
 3. **Juridisch: mogen we de data publiceren?**  
    Wat zeggen licenties, AVG-regels en toegangsvoorwaarden?
-
 4. **Ethisch: willen we de data ontsluiten?**  
    Niet alle data die past, kan én mag, moet ook zichtbaar worden voor iedereen. Denk aan voorwaardelijke toegang voor onderzoekers of herkomstgemeenschappen tot bijvoorbeeld gegevens over objecten met menselijke resten.
 
 ## Naar een dataspace
 
 De stap naar een dataspace betekent dat deze vier kaders niet vrijblijvend zijn, maar **als metadata-afspraken afdwingbaar worden**. Daarmee gaat het verder dan we met NDE via bijvoorbeeld het datasetregister gaan. Één laag ontbreekt nog volledig: de ethische metadata.
-
 Bronhouders zouden kunnen aangeven dat een dataset menselijke resten bevat en daarbij voorwaarden voor toegang expliciet maken, bijvoorbeeld:
 
 - alleen toegankelijk voor bevoegde onderzoekers;
 - toegang met instemming van herkomstgemeenschappen;
 - geen verwerking buiten bepaalde jurisdicties.
-
-Binnen een dataspace zijn dit geen afspraken op papier, maar protocollen die toegang automatisch toetsen. De bronhouder krijgt dus zeggenschap over hoe, door wie en onder welke juridische en ethische voorwaarden zijn data wordt gebruikt. Dat is wat Europa _trust by design_ noemt.
+  Binnen een dataspace zijn dit geen afspraken op papier, maar protocollen die toegang automatisch toetsen. De bronhouder krijgt dus zeggenschap over hoe, door wie en onder welke juridische en ethische voorwaarden zijn data wordt gebruikt. Dat is wat Europa _trust by design_ noemt.
 
 ### Wederzijds vertrouwen
 

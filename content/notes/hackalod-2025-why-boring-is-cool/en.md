@@ -1,14 +1,7 @@
 ---
-pid: p322:blog:01J6E8F3P8M9R2H7V4KQ1CZWX
 title: "The Day After the HackaLOD: Why Solid is the Foundation of Cool"
-date: 2025-11-03T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/hackalod-2025.jpg
-excerpt: Building a complete, DERA-compliant data structure in 24 hours? During HackaLOD 2025, we proved it could be done.
-category: Backgrounds
-tagsLocal:
-  - nde
-  - Hackalod
+date: "2025-11-03T00:00:00+00:00"
+excerpt: "Building a complete, DERA-compliant data structure in 24 hours? During HackaLOD 2025, we proved it could be done."
 ---
 
 It’s the day after. Yesterday and the day before, I took part for the first time in **#HackaLOD2025** by the Dutch Digital Heritage Network.  

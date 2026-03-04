@@ -1,16 +1,8 @@
 ---
-pid: p322:blog:06E095M5FA08MZ664KEXDKT7W
 title: "Is a heritage dataspace still an open data infrastructure?"
-date: 2026-02-04T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/afsluitdijk-3.jpg
+date: "2026-02-04T00:00:00+00:00"
 excerpt: "Open data sounds simple, but in practice it rarely is. Anyone who shares heritage data inevitably runs into legal limits, technical constraints, ethical considerations, and geopolitical reality. Ahead of publishing my fourth dataspace experiment next week, this blog pauses on a more fundamental question: what does it really mean to set access conditions within an infrastructure that calls itself “open data”? When is “open” no longer unconditional? And how do you translate policy, trust, and responsibility into technology? This post explores where openness starts to chafe, where control becomes unavoidable, and why that is exactly where dataspaces show their value."
 teaser: "What happens when “open” is no longer unconditional? This blog explores where openness starts to chafe—and what that means for heritage data, policy, and dataspaces."
-category: Backgrounds
-tagsLocal:
-  - dataspaces
-  - open-data
-  - governance
 ---
 
 Open data sounds like a promise. But more and more it feels like a risk. Not because institutions want to be less open, but because the world in which that data circulates has fundamentally changed. Legal claims, privacy, geopolitics, AI training, commercial extraction, hybrid threats: these are no longer edge cases, but daily reality for anyone responsible for data. Heritage data included.
@@ -22,7 +14,7 @@ In a world where openness is no longer innocent, access policy is not a technica
 
 ## Open is not unconditional
 
-In this series on dataspaces I showed in [the first blog](/nl/posts/20260121-erfgoed-en-de-dataspace-een-experiment) what a dataspace is and which problem it tries to solve. In [the second blog](/nl/posts/20260128-erfgoed-en-de-dataspace-experiment-2-en-3) I expanded that setup with multiple parties and concrete transactions.
+In this series on dataspaces I showed in [the first blog](note:heritage-dataspace-experiment) what a dataspace is and which problem it tries to solve. In [the second blog](note:heritage-dataspace-experiment-2-and-3) I expanded that setup with multiple parties and concrete transactions.
 
 Before moving on to new experiments, I want to ask a more fundamental question: what do access conditions mean for an infrastructure that calls itself “open data”? What happens to openness once you take legal, ethical, technical, and geopolitical constraints seriously?
 

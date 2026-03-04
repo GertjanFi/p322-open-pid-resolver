@@ -1,15 +1,8 @@
 ---
-pid: p322:blog:01J6E8F3PFQ2H9R7M4K8V1CW
 title: "Outside the Dataset, Within the Community: Enrichments as Nanopublications"
-date: 2025-12-11T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/buiten-dataset-binnen-gemeenschap-verrijkingen-als-nanopublicaties.jpg
+date: "2025-12-11T00:00:00+00:00"
 excerpt: "The second lesson from the Colonial Collections Datahub: enrichments must become independent, citable knowledge items.<br/><br/>The Datahub cannot store enrichments in its cache without losing them every night—nor without becoming an aggregator itself. Communities of origin also want their knowledge to exist outside Dutch infrastructure. This is why enrichments are published as standalone nanopublications: small, verifiable knowledge claims with their own provenance and licensing, distributed across an international network. The cache stays temporary, but the knowledge becomes durable, citable, and independent—exactly what reproducible and responsible infrastructure requires."
 teaser: "The second P-322 lesson for service platforms is live. Discover why enrichments in the Datahub Colonial Collections are only sustainable and fair when published as independent, citable nanopublications: verifiable knowledge claims that exist outside Dutch infrastructure and are shared internationally."
-category: Backgrounds
-tagsLocal:
-  - nanopublications
-  - enrichments
 ---
 
 The first time a community of origin nasked why they should place _their_ knowledge in a Dutch database while the Netherlands already held the objects and museum information, it became clear that something fundamental was wrong. Communities no longer want their culture subordinated to the Netherlands—and rightly so.

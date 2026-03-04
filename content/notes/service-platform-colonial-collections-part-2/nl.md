@@ -1,26 +1,23 @@
 ---
-pid: p322:blog:01J6E8F3PCM7H4Q2R9K8V1CW
 title: "Dienstplatform Datahub Koloniale Collecties deel 2: Infrastructuur en NDE-compliance"
-date: 2025-11-20T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/bird-of-prophecy-2.jpg
-excerpt: In deel 2 van de datahub als dienstplatform dalen we af naar de infrastructuur onder de Koloniale Collecties. Niet de interface, maar de afspraken die bepalen wie welke data publiceert, hoe die blijft stromen en hoe dicht we bij de bron blijven. We volgen hoe musea hun eigen data publiceren volgens de NDE-architectuur, hoe de Datahub die gebruikt zonder te aggregeren, en waarom verrijkingen als zelfstandige kennis worden opgeslagen in plaats van verborgen in een tussenlaag.
-category: Achtergronden
-tagsLocal:
-  - "Koloniale Collecties"
-  - dienstplatform
-  - nde
+date: "2025-11-20T00:00:00+00:00"
+excerpt: "In deel 2 van de datahub als dienstplatform dalen we af naar de infrastructuur onder de Koloniale Collecties. Niet de interface, maar de afspraken die bepalen wie welke data publiceert, hoe die blijft stromen en hoe dicht we bij de bron blijven. We volgen hoe musea hun eigen data publiceren volgens de NDE-architectuur, hoe de Datahub die gebruikt zonder te aggregeren, en waarom verrijkingen als zelfstandige kennis worden opgeslagen in plaats van verborgen in een tussenlaag."
 ---
 
 ## De datahub als dienstplatform – deel 2
 
-In [deel 1 van deze serie](/nl/posts/20251113-dienstplatform-datahub-koloniale-collecties-deel-1-de-gebruikersomgeving) liepen we door de gebruikersomgeving van de Datahub Koloniale Collecties en volgden we de _Bird of Prophecy_ door het scherm. In deel 2 draaien we het perspectief om. We gaan naar de laag waar geen mooie afbeeldingen meer staan, maar waar wordt besloten welke data überhaupt in beeld kán komen: de infrastructuur.
+In [deel 1 van deze serie](note:service-platform-colonial-collections-part-1) liepen we door de gebruikersomgeving van de Datahub Koloniale Collecties en volgden we de _Bird of Prophecy_ door het scherm. In deel 2 draaien we het perspectief om. We gaan naar de laag waar geen mooie afbeeldingen meer staan, maar waar wordt besloten welke data überhaupt in beeld kán komen: de infrastructuur.
 
 Ook hier gaat het niet om techniek om de techniek. De vraag blijft hetzelfde: hoe zorg je dat musea, gemeenschappen van herkomst en onderzoek goed met elkaar kunnen werken, zonder hun zeggenschap over data kwijt te raken? Het antwoord begint bij de architectuur van het Netwerk Digitaal Erfgoed. In de video laat ik zien hoe de Datahub is opgebouwd op basis van het NDE-document “Afspraken voor erfgoedsites en apps”, een blauwdruk voor dienstplatformen waar ik zelf aan heb meegeschreven. Geen theoretisch plaatje, maar een schema dat één-op-één terug te vinden is in de draaiende omgeving.
 
 Merk op dat deze presentatie is opgenomen voordat het nieuwe NDE-visie document op dienstplatformen werd gepubliceerd: '[Van Data naar Dienst](https://netwerkdigitaalerfgoed.nl/nieuws/van-maatwerk-naar-netwerk-samen-bouwen-aan-erfgoedplatformen/)'. De infrastructuur van de datahub staat ook in dit document beschreven.
 
-{% cfStream "354a6afa8111744042ad52cc8f9bc3f9", { lang: page.lang, aspect: "16/9", start: "00:00:10" } %}
+```p322:stream
+provider: cloudflare
+uid: 354a6afa8111744042ad52cc8f9bc3f9
+aspect: 16/9
+start: 00:00:10
+```
 
 ## De onderkant van de Datahub Koloniale Collecties
 

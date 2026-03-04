@@ -1,26 +1,23 @@
 ---
-pid: p322:blog:01J6E8F3PCM7H4Q2R9K8V1CW
 title: "Service Platform Datahub Colonial Collections Part 2: Infrastructure and NDE Compliance"
-date: 2025-11-20T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/bird-of-prophecy-2.jpg
-excerpt: In part 2 of the datahub as a service platform, we descend into the infrastructure beneath the Colonial Collections. Not the interface, but the agreements that determine who publishes which data, how it keeps flowing, and how close we stay to the source. We follow how museums publish their own data according to the NDE architecture, how the Datahub uses it without aggregating, and why enrichments are stored as independent knowledge instead of being hidden in an intermediate layer.
-category: Backgrounds
-tagsLocal:
-  - "Colonial Collections"
-  - "service platform"
-  - nde
+date: "2025-11-20T00:00:00+00:00"
+excerpt: "In part 2 of the datahub as a service platform, we descend into the infrastructure beneath the Colonial Collections. Not the interface, but the agreements that determine who publishes which data, how it keeps flowing, and how close we stay to the source. We follow how museums publish their own data according to the NDE architecture, how the Datahub uses it without aggregating, and why enrichments are stored as independent knowledge instead of being hidden in an intermediate layer."
 ---
 
 ## The datahub as a service platform – part 2
 
-In [part 1 of this series](/en/posts/20251113-service-platform-datahub-colonial-collections-part-1-the-user-environment), we explored the user environment of the Datahub Colonial Collections and followed the _Bird of Prophecy_ across the screen. In part 2, we reverse the perspective. We look at the layer where no visuals remain, but where it is decided which data can appear in the interface at all: the infrastructure.
+In [part 1 of this series](note:service-platform-colonial-collections-part-1), we explored the user environment of the Datahub Colonial Collections and followed the _Bird of Prophecy_ across the screen. In part 2, we reverse the perspective. We look at the layer where no visuals remain, but where it is decided which data can appear in the interface at all: the infrastructure.
 
 Again, the focus is not technology for its own sake. The question remains: how do we ensure that museums, communities of origin, and researchers can collaborate without losing control over their data? The answer begins with the architecture of the Dutch Digital Heritage Network (NDE). In the video, I show how the Datahub is built on the NDE blueprint _“Afspraken voor erfgoedsites en apps”_, which I helped author. Not a theoretical model, but a diagram that exists one-to-one in the live environment.
 
 Note: this presentation was recorded before the new NDE vision document on service platforms was published: “[From Data to Service](https://netwerkdigitaalerfgoed.nl/nieuws/van-maatwerk-naar-netwerk-samen-bouwen-aan-erfgoedplatformen/)” (document available in Dutch only). The infrastructure of the datahub is also described in that publication.
 
-{% cfStream "354a6afa8111744042ad52cc8f9bc3f9", { lang: page.lang, aspect: "16/9", start: "00:00:10" } %}
+```p322:stream
+provider: cloudflare
+uid: 354a6afa8111744042ad52cc8f9bc3f9
+aspect: 16/9
+start: 00:00:10
+```
 
 ## The lower layer of the Datahub Colonial Collections
 

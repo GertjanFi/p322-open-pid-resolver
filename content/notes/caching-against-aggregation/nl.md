@@ -1,15 +1,8 @@
 ---
-pid: p322:blog:01J6E8F3PEM9H4Q7R2K8V1CW
 title: "Cache en geen kopie: een middel tegen aggregatie."
-date: 2025-12-04T00:00:00.000Z
-authorKey: gertjan
-image: /assets/images/knowledge/cache-geen-kopie-tegen-aggregatie.jpg
+date: "2025-12-04T00:00:00+00:00"
 excerpt: "Het eerste blog met lessen die we hebben geleerd uit de koloniale collecties als dienstplatform.<br/><br/>De Datahub leeft op het ritme van nachtelijke synchronisaties: elke dag wordt de volledige knowledge graph opnieuw opgebouwd. Niet om te bewaren, maar om bewust wegwerpbaar te blijven. Een dataset die je niet volledig kunt reconstrueren uit de bron is een aggregaat. Door volledig reproduceerbaar te blijven, voorkomt de Datahub dat het zelf autoriteit wordt en blijft de applicatie dienstverlener in plaats van gezagsdrager."
-teaser: Het eerste blog uit onze lessen voor dienstplatforms staat live. Ontdek waarom de Datahub Koloniale Collecties elke nacht volledig wordt herbouwd en hoe die radicale ‘wegwerpbaarheid’ voorkomt dat een dienstplatform zelf autoriteit wordt. Ontdek de kern van écht reproduceerbaar datadelen.
-category: Achtergronden
-tagsLocal:
-  - caching
-  - aggregation
+teaser: "Het eerste blog uit onze lessen voor dienstplatforms staat live. Ontdek waarom de Datahub Koloniale Collecties elke nacht volledig wordt herbouwd en hoe die radicale ‘wegwerpbaarheid’ voorkomt dat een dienstplatform zelf autoriteit wordt. Ontdek de kern van écht reproduceerbaar datadelen."
 ---
 
 Ergens rond een uur of vijf in de ochtend, tussen de nachtelijke datasynchronisatie en mijn tweede pot thee bedacht ik dat onze dienst [Datahub Koloniale Collecties](https://app.colonialcollections.nl/en) een ongewoon ritme heeft. Terwijl de meeste systemen hun gegevens koesteren alsof ze onvervangbaar zijn, begint de Datahub elke nacht opnieuw. Alle datasets worden fris ingelezen, ontward en herbouwd, alsof het platform weigert een eigen geheugen op te bouwen.
