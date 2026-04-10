@@ -3,6 +3,7 @@ title: "Sustainable links: why not everything that lasts should do everything"
 date: "2026-01-14T00:00:00+00:00"
 excerpt: "Sustainable links sound like a technical choice until you realise the real problem is organisational: one infrastructure expected to support archiving, scholarly citation, and marketing at the same time. This blog walks through Handle, DOI, ARK, and even PURL—but above all through the underlying question: what are you allowed to promise permanently, and what do you only want to measure temporarily? The outcome is a surprisingly simple design rule: separate identity from attention."
 teaser: "What happens when you use the same link to cite, archive, and count clicks? This blog explores Handle, DOI, ARK, and PURL, and shows why sustainable identification breaks down the moment you let it run alongside marketing—and how to prevent that with one principled separation."
+isAutoTranslated: true
 ---
 
 Last December I implemented persistent identification. Not just the technology, but—more importantly—the policy meant to give users enough confidence to refer to our links without hesitation. I wrote a blog about that: ["Names That Last: on persistent identifiers without the delusion of eternity"](note:enduring-names-persistent-identification). In it, I argued that persistence is not the same as “having a Handle or an ARK”—and that some organisations, such as startups, may have to do without, because these systems often come with substantial conditions.

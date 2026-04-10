@@ -3,6 +3,7 @@ title: "Buiten de dataset, binnen de gemeenschap: verrijkingen als nanopublicati
 date: "2025-12-11T00:00:00+00:00"
 excerpt: "De tweede les uit de Datahub Koloniale Collecties: verrijkingen moeten zelfstandige, citeerbare kennisitems zijn.<br/><br/>De Datahub Koloniale Collecties kan verrijkingen niet in de cache opslaan zonder ze elke nacht te verliezen én zonder zelf een aggregator te worden. Herkomstgemeenschappen willen bovendien dat hun kennis buiten Nederlandse infrastructuur kan bestaan. Daarom worden verrijkingen gepubliceerd als zelfstandige nanopublicaties: kleine, verifieerbare kennisclaims met eigen provenance en licenties, gedistribueerd in een internationaal netwerk. Zo blijft de cache tijdelijk, maar de kennis duurzaam, citeerbaar en onafhankelijk — precies wat reproduceerbare en rechtvaardige infrastructuur vraagt."
 teaser: "De tweede P-322 les voor dienstplatforms staat live. Ontdek waarom verrijkingen in de Datahub Koloniale Collecties alleen houdbaar en rechtvaardig zijn als zelfstandige, citeerbare nanopublicaties: verifieerbare kennisclaims die buiten de Nederlandse infrastructuur bestaan en internationaal worden gedeeld."
+isAutoTranslated: false
 ---
 
 De eerste keer dat een herkomstgemeenschap ons vroeg waarom zij hún kennis in een Nederlandse database moesten stoppen terwijl Nederland al de objecten en museale informatie had, voelde ik dat we iets fundamenteels verkeerd deden. Herkomstgemeenschappen willen niet langer dat hun cultuur onderworpen word aan Nederland. En terecht.

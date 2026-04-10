@@ -2,6 +2,7 @@
 title: "Service Platforms Are Not Data Layers — Time to Acknowledge That"
 date: "2025-11-18T00:00:00+00:00"
 excerpt: "Service platforms brim with creativity and improvisation, much like jazz musicians. But even in jazz, there is always a bass line holding everything together. In my response to the report 'Van Data naar Dienst', I explain why that role in our digital heritage infrastructure belongs to the broker. When we take that position seriously, platforms regain the freedom to do what they are best at."
+isAutoTranslated: true
 ---
 
 Last week, I read the NDE report _'Van Data naar Dienst'_, which presents a vision for developing connected digital service platforms. The authors regularly refer to the Colonial Collections datahub as an example. That’s wonderful, but there is something I learned in that project. Not in a single moment, but in a series of small insights that only later revealed a pattern.

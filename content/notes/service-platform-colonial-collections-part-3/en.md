@@ -3,6 +3,7 @@ title: "Service Platform Datahub Colonial Collections Part 3: from NDE Infrastru
 date: "2025-11-27T00:00:00+00:00"
 excerpt: "The Datahub Colonial Collections automatically processes and publishes museum data according to NDE principles: technically correct, legally permitted, and transparently traceable. But when datasets include colonial-era objects or human remains, the question shifts from can we? to should we?<br/><br/>Responsible publication requires four frameworks: contextual, technical, legal, and ethical. In a European dataspace, these frameworks become enforceable protocols, enabling responsible and trustworthy data sharing with trust by design built into the infrastructure."
 teaser: "The final part of the P-322 series on the Colonial Collections is live. See how the Datahub is transforming into a European dataspace and why that changes the way we share heritage datasets. Discover it now."
+isAutoTranslated: true
 ---
 
 ## The Datahub as a Service Platform – Part 3

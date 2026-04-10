@@ -2,6 +2,7 @@
 title: "A Data Architecture Studio"
 date: "2025-04-02T00:00:00+00:00"
 excerpt: "Data are the raw material of the digital world. But just as steel, wood, or pigment gain value only through design and craftsmanship, data becomes meaningful only when given structure, context, and coherence. That is precisely the domain of a data architecture studio."
+isAutoTranslated: true
 ---
 
 Data are the raw material of the digital world.

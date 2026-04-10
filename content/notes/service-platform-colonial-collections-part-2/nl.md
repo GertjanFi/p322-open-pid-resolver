@@ -2,6 +2,7 @@
 title: "Dienstplatform Datahub Koloniale Collecties deel 2: Infrastructuur en NDE-compliance"
 date: "2025-11-20T00:00:00+00:00"
 excerpt: "In deel 2 van de datahub als dienstplatform dalen we af naar de infrastructuur onder de Koloniale Collecties. Niet de interface, maar de afspraken die bepalen wie welke data publiceert, hoe die blijft stromen en hoe dicht we bij de bron blijven. We volgen hoe musea hun eigen data publiceren volgens de NDE-architectuur, hoe de Datahub die gebruikt zonder te aggregeren, en waarom verrijkingen als zelfstandige kennis worden opgeslagen in plaats van verborgen in een tussenlaag."
+isAutoTranslated: false
 ---
 
 ## De datahub als dienstplatform – deel 2

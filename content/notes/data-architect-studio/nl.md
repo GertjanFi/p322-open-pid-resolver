@@ -2,6 +2,7 @@
 title: "Een data-architectuurstudio"
 date: "2025-04-02T00:00:00+00:00"
 excerpt: "Data zijn het ruwe materiaal van de digitale wereld. Maar zoals staal, hout of pigment pas waarde krijgen door ontwerp en vakmanschap, zo wordt data pas betekenisvol wanneer er structuur, context en samenhang aan wordt gegeven. Dat is precies het werkterrein van een data-architectuurstudio."
+isAutoTranslated: false
 ---
 
 Data zijn het ruwe materiaal van de digitale wereld. Maar zoals staal, hout of pigment pas waarde krijgen door ontwerp en vakmanschap, zo wordt data pas betekenisvol wanneer er structuur, context en samenhang aan wordt gegeven. Dat is precies het werkterrein van een data-architectuurstudio.

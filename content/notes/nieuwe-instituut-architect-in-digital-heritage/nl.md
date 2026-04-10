@@ -10,6 +10,7 @@ category: Consultancy
 tagsLocal:
   - "nieuwe instituut"
   - DERA
+isAutoTranslated: false
 ---
 
 Digitale infrastructuur klinkt zelden sexy. Maar wie even onder de motorkap kijkt van _The Other Interface_ (TOI) — het platform waarmee het Nieuwe Instituut zijn collecties zichtbaar maakt — ziet iets bijzonders: een laboratorium voor de toekomst van digitaal erfgoed in Nederland.

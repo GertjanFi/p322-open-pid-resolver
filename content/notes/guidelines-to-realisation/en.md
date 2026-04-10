@@ -2,6 +2,7 @@
 title: "From Guideline to Reality: How the RCE Makes Heritage Software Future-Proof"
 date: "2025-06-29T00:00:00+00:00"
 excerpt: "The Nieuwe Instituut shows that digital heritage infrastructure is not a future plan but a reality. With *The Other Interface*, the institute translates the DERA principles into practice and becomes a guide for the network."
+isAutoTranslated: true
 ---
 
 Anyone who has ever been involved in purchasing heritage software knows this: technical specifications seem dull — until they’re missing.  

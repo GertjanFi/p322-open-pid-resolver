@@ -2,6 +2,7 @@
 title: "De dag na de HackaLOD: waarom degelijk de basis is van cool"
 date: "2025-11-03T00:00:00+00:00"
 excerpt: "Binnen 24 uur een complete, DERA-conforme datastructuur opbouwen? Tijdens de HackaLOD 2025 bewezen we dat het kon."
+isAutoTranslated: false
 ---
 
 Het is de day after. Gisteren en afgelopen vrijdag deed ik voor het eerst mee aan de **#HackaLOD2025** van Netwerk Digitaal Erfgoed. Na ruim twintig jaar in de erfgoedsector moest het er een keer van komen.

@@ -3,6 +3,7 @@ title: "Is een erfgoed dataspace nog wel een open data infrastructuur?"
 date: "2026-02-04T00:00:00+00:00"
 excerpt: "Open data klinkt eenvoudig, maar in de praktijk is het dat zelden. Wie erfgoeddata deelt, botst onvermijdelijk op juridische grenzen, technische beperkingen, ethische afwegingen en geopolitieke realiteit. Voordat ik volgende week het vierde dataspace-experiment publiceer, sta ik in dit blog stil bij een fundamentelere vraag: wat betekent het eigenlijk om toegangsvoorwaarden te stellen binnen een open data infrastructuur? Wanneer is “open” niet meer onvoorwaardelijk? En hoe vertaal je beleid, vertrouwen en verantwoordelijkheid naar technologie? Dit blog verkent waar openheid schuurt, waar controle onvermijdelijk wordt, en waarom dataspaces juist daar hun waarde laten zien."
 teaser: "Wat gebeurt er als “open” niet langer onvoorwaardelijk is? In dit blog laat ik zien waar openheid schuurt, en verken ik wat dat betekent voor erfgoeddata, beleid en dataspaces."
+isAutoTranslated: false
 ---
 
 Open data klinkt als een belofte. Maar steeds vaker voelt het als een risico. Niet omdat instellingen minder open wíllen zijn, maar omdat de wereld waarin die data circuleert fundamenteel is veranderd. Juridische claims, privacy, geopolitiek, AI-training, commerciële extractie, hybride dreiging: het zijn geen randverschijnselen meer, maar dagelijkse realiteit voor iedereen die data beheert. Ook erfgoeddata.

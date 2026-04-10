@@ -2,6 +2,7 @@
 title: "Service Platform Datahub Colonial Collections Part 2: Infrastructure and NDE Compliance"
 date: "2025-11-20T00:00:00+00:00"
 excerpt: "In part 2 of the datahub as a service platform, we descend into the infrastructure beneath the Colonial Collections. Not the interface, but the agreements that determine who publishes which data, how it keeps flowing, and how close we stay to the source. We follow how museums publish their own data according to the NDE architecture, how the Datahub uses it without aggregating, and why enrichments are stored as independent knowledge instead of being hidden in an intermediate layer."
+isAutoTranslated: true
 ---
 
 ## The datahub as a service platform – part 2

@@ -3,6 +3,7 @@ title: "Erfgoed en dataspaces: experiment 1"
 date: "2026-01-21T00:00:00+00:00"
 excerpt: "Dataspaces duiken steeds vaker op in erfgoedbeleid, maar wat betekenen ze technisch eigenlijk? In dit eerste experiment bouw ik een werkende dataspace-transactie met Europese open-source technologie: geen diagrammen, maar echte software die je lokaal kunt draaien. Stap voor stap laat ik zien hoe providers en consumers onderhandelen, wachten, en uiteindelijk data uitwisselen onder expliciete voorwaarden. Geen abstract beleid, maar een concreet teken van leven onder het woord ‘dataspace’."
 teaser: "Wat gebeurt er als erfgoeddata niet zomaar open staat, maar via afspraken wordt gedeeld? Een hands-on experiment met dataspaces, van poort tot sleutel."
+isAutoTranslated: false
 ---
 
 In het digitaal erfgoed hoor je zo nu en dan de term: _dataspace_ oftewel dataruimte. Afgelopen jaar stak het ineens de kop op. Net genoeg om je af te vragen: wat betekent dat eigenlijk? En belangrijker: wat kan het echt? Is het een nieuwe term voor beleidsmakers? Of hangt er concrete technologie onder? Uit nieuwsgierigheid ben ik eind december 2025 op onderzoek uitgegaan. In een aantal experimenten heb ik gekeken wat het is, hoe het werkt en of ik een eigen dataspace kon bouwen. Je moet immers wat tussen het kerstdiner en de oliebollen. En met "bouwen", bedoel ik dus: werkende code voor een echte dataspace-transactie. Die je zelf ook kunt installeren. Op je computer.

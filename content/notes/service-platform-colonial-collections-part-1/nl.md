@@ -2,6 +2,7 @@
 title: "Dienstplatform Datahub Koloniale Collecties deel 1: De gebruikersomgeving"
 date: "2025-11-11T00:00:00+00:00"
 excerpt: "De Datahub voor Koloniale Collecties is een van de eerste concrete voorbeelden van een dataspace in het erfgoeddomein. In deze infrastructuur worden collecties uit Nederlandse musea met een koloniale context samengebracht en verrijkt met kennis van gemeenschappen van herkomst. Zoals bij de Bird of Prophecy uit Nigeria. De Datahub maakt die kennis zichtbaar als gelijkwaardige bronnen binnen één gedeeld systeem.</br></br>Dit deel 1 gaat over de gebruikersomgeving van de datahub."
+isAutoTranslated: false
 ---
 
 ## From Data to Blueprint

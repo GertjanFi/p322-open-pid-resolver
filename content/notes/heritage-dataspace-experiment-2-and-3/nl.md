@@ -3,6 +3,7 @@ title: "Erfgoed en dataspaces: experimenten 2 & 3"
 date: "2026-01-28T00:00:00+00:00"
 excerpt: "Dataspaces klinken abstract, tot je ze uit elkaar haalt en kijkt wat er echt gebeurt wanneer meerdere partijen tegelijk data willen ophalen. In dit blog neem ik je mee in experimenten 2 en 3, waarin één provider te maken krijgt met meerdere consumers — en zelfs met een kwaadwillende bezoeker. Wat gebeurt er met contracten, sleutels en toegang wanneer je de architectuur iets onder druk zet? En waar ligt de verantwoordelijkheid eigenlijk: bij de provider, of bij degene die de sleutel krijgt?"
 teaser: "Wat gebeurt er als meerdere consumers tegelijk data opvragen in een dataspace? En wat als één daarvan zich niet netjes gedraagt? In dit blog test ik dataspaces niet op papier, maar met werkende experimenten. Je ziet hoe transacties worden opgebouwd, waar verantwoordelijkheid ligt, en wat er gebeurt als een sleutel in verkeerde handen valt. Geen abstracte beloftes, maar concrete observaties uit code die mag breken."
+isAutoTranslated: false
 ---
 
 In het digitaal erfgoed hoor je de term: _dataspace_. Wat betekent dat eigenlijk? En belangrijker: wat kan het echt? Is het een nieuwe term voor beleidsmakers? Of hangt er concrete technologie onder? Uit nieuwsgierigheid ben ik op onderzoek uitgegaan.

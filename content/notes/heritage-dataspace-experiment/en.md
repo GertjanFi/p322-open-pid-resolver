@@ -3,6 +3,7 @@ title: "Heritage and data spaces: experiment 1"
 date: "2026-01-21T00:00:00+00:00"
 excerpt: "data spaces are showing up more and more in heritage policy, but what do they actually mean technically? In this first experiment I build a working data space transaction using European open-source technology: no diagrams, but real software you can run locally. Step by step I show how providers and consumers negotiate, wait, and ultimately exchange data under explicit conditions. No abstract policy talk, but a concrete sign of life beneath the words ‘data space’."
 teaser: "What happens when heritage data is not simply open, but shared through agreements? A hands-on data space experiment, from gate to key."
+isAutoTranslated: true
 ---
 
 In digital heritage, you occasionally hear the term _data space_ (in Dutch: _dataruimte_). Over the past year it suddenly started popping up — just enough to make you wonder: what does it actually mean? And more importantly: what can it really do? Is it a new term for policymakers, or is there concrete technology underneath it? Out of curiosity, in late December 2025 I started digging. In a series of experiments I looked at what it is, how it works, and whether I could build a data space myself. You need something to do between the Christmas dinner and the New Year’s doughnuts. And by “build”, I really mean: working code for a real data space transaction. Something you can install yourself. On your own computer.

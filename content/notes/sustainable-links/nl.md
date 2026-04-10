@@ -3,6 +3,7 @@ title: "Duurzame links: waarom niet alles wat blijft, ook alles moet doen"
 date: "2026-01-14T00:00:00+00:00"
 excerpt: "Duurzame links klinken als een technische keuze, tot je ontdekt dat het echte probleem organisatorisch is: één infrastructuur die tegelijk archivering, wetenschappelijke citatie én marketing moet dragen. In dit blog neem ik je mee langs Handle, DOI, ARK en zelfs PURL - maar vooral langs de vraag die daaronder ligt: wat mag je permanent beloven, en wat wil je alleen tijdelijk meten? Met een verrassend simpele ontwerpregel als uitkomst: scheid identiteit van aandacht."
 teaser: "Wat gebeurt er als je dezelfde link gebruikt om te citeren, te archiveren én clicks te tellen? Dit blog neemt je mee langs Handle, DOI, ARK en PURL, en laat zien waarom duurzame identificatie stukloopt zodra je het laat meedraaien met marketing - en hoe je dat voorkomt met één principiële scheiding."
+isAutoTranslated: false
 ---
 
 Afgelopen december heb ik persistente identificatie geïmplementeerd. Niet alleen de techniek, maar juist ook het beleid waarmee we gebruikers het vertrouwen willen geven om met een gerust hart naar onze links te verwijzen. Ik schreef daar een blog over: ["Namen die blijven: over persistente identifiers zonder eeuwigheidswaan"](note:enduring-names-persistent-identification). Daarin stelde ik dat persistentie niet gelijk staat aan “een Handle of ARK hebben” - en dat sommige organisaties, zoals startups, misschien wel zonder móéten omdat er vaak nogal wat voorwaarden aan verbonden zijn.

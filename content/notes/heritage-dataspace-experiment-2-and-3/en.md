@@ -3,6 +3,7 @@ title: "Heritage and data spaces: experiments 2 & 3"
 date: "2026-01-28T00:00:00+00:00"
 excerpt: "Data spaces sound abstract until you take them apart and look at what actually happens when multiple parties try to access data at the same time. In this blog I walk through experiments 2 and 3, where a single provider is approached by multiple consumers — including a malicious one. What happens to contracts, keys, and access when the architecture is put under pressure? And where does responsibility really lie: with the provider, or with the party holding the key?<br/><br/>Using working code, I show why roles, transactions, and infrastructure layers matter, and what a data space does — and explicitly does not — promise when it comes to security. No policy talk, but concrete technical observations from experiments that are allowed to break."
 teaser: "What happens when multiple consumers request data from a data space at the same time? And what if one of them misbehaves? In this blog I test data spaces not on paper, but through working experiments. You’ll see how transactions are structured, where responsibility lies, and what happens when a key falls into the wrong hands. No abstract promises, but concrete observations from code that is allowed to break."
+isAutoTranslated: true
 ---
 
 In digital heritage, you occasionally hear the term _data space_. But what does it actually mean? And more importantly: what can it really do? Is it just a new term for policymakers? Or is there concrete technology underneath it? Out of curiosity, I decided to investigate.

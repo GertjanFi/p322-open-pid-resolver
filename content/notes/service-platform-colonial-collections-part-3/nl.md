@@ -3,6 +3,7 @@ title: "Dienstplatform Datahub Koloniale Collecties deel 3: van NDE-infrastructu
 date: "2025-11-27T00:00:00+00:00"
 excerpt: "De Datahub Koloniale Collecties verwerkt en publiceert automatisch museumdata volgens NDE-principes: technisch correct, juridisch toegestaan en transparant herleidbaar. Maar bij datasets met koloniale objecten of menselijke resten schuift de vraag van kan het? naar moeten we dit willen?<br/><br/> Om verantwoord te publiceren zijn vier kaders nodig: contextueel, technisch, juridisch én ethisch. In een Europese dataspace worden die kaders afdwingbaar in protocollen. Zo ontstaat verantwoord en betrouwbaar data-delen, met trust by design ingebouwd in de infrastructuur."
 teaser: "Het slotdeel van de P-322-serie over de Koloniale Collecties staat live. Zie hoe de Datahub transformeert tot Europese dataspace en waarom dat de manier waarop we erfgoeddatasets delen verandert. Ontdek het nu."
+isAutoTranslated: false
 ---
 
 ## De Datahub als dienstplatform – deel 3

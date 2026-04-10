@@ -2,6 +2,7 @@
 title: "Van richtlijn naar realiteit: hoe de RCE erfgoedsoftware toekomstbestendig maakt"
 date: "2025-06-29T00:00:00+00:00"
 excerpt: "Het Nieuwe Instituut laat zien dat digitale erfgoedinfrastructuur geen toekomstplan is maar realiteit. Met The Other Interface zet het instituut de DERA-principes om in praktijk en wordt zo gids voor het netwerk."
+isAutoTranslated: false
 ---
 
 Wie ooit betrokken was bij de aanschaf van erfgoedsoftware weet het: technische specificaties lijken saai — tot ze ontbreken. Want precies daar, in de details van identifiers, API’s en ontologieën, beslist zich of collectiedata duurzaam vindbaar, deelbaar en herbruikbaar worden.

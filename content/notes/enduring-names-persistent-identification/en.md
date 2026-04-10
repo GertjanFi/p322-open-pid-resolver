@@ -3,6 +3,7 @@ title: "Names That Endure: Persistent Identifiers Without the Illusion of Eterni
 date: "2026-01-07T00:00:00+00:00"
 excerpt: "Links feel like concrete, until they suddenly turn to sand. In heritage data, that is not a detail but a risk: what works today may vanish tomorrow due to a new vendor, a reorganisation, or a change in leadership. In this blog, I show why a URL is not a promise, what a PID does deliver, and how minimal, sober infrastructure can build trust - without illusions of eternity. If your collections need to outlive your organisation, this is worth reading."
 teaser: "Persistent identifiers are about technology and policy. Discover why real digital-heritage continuity starts with agreements, not URIs, and what that demands from organisations."
+isAutoTranslated: true
 ---
 
 Digital infrastructure is full of temporary solutions that masquerade as permanent. Internet addresses, software interfaces/APIs, dashboards: they feel reliable because they work today. But heritage outlives a contract, a vendor, a project phase, and even an organisation. Anyone who takes that seriously cannot keep pretending that a link is enough.
